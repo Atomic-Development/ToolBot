@@ -1,0 +1,30 @@
+{
+  "name": "evetools",
+  "version": "0.1.0",
+  "description": "EVE Online related tools/scripts.",
+  "main": "evetools.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cheerio-tableparser": "^1.0.1",
+    "discord-command-parser": "^1.4.3",
+    "discord.js": "^12.2.0",
+    "enmap": "^5.3.1",
+    "esijs": "^3.0.6",
+    "fs": "0.0.1-security",
+    "got": "^11.5.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "numeral": "^2.0.6",
+    "puppeteer": "^5.0.0",
+    "request-promise": "^4.2.5",
+    "tabletojson": "^2.0.4",
+    "underscore": "^1.10.2",
+    "url-metadata": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
