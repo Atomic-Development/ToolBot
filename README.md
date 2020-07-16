@@ -158,12 +158,12 @@ If you haven't been messing around with any of the files (*except the config fil
 
 The bot will then spit out a bunch of helpful, reassuring text to let you know that it's alive:
 
-> Attempting to load command info
-> Attempting to load command ping
-> Attempting to load command price
-> Attempting to load command reload
-> Attempting to load command route
-> Attempting to load command time
+> Attempting to load command info  
+> Attempting to load command ping  
+> Attempting to load command price  
+> Attempting to load command reload  
+> Attempting to load command route  
+> Attempting to load command time  
 > Ready to serve in 135 channels on 2 servers, for a total of 968 users.
 
 ## Configuring EVETools
