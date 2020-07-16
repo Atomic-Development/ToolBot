@@ -3,9 +3,8 @@ const moment = require('moment-timezone');
 exports.run = (client, message, args) => {
     var eveTime = moment();
     var eveTimeUTC = eveTime.utc();
-    var eveTimeFormatted = eveTimeUTC.format('YYYY/MM/DD - HH:mm/h:mm A');
+    var eveTimeFormatted = eveTimeUTC.format("dddd, Do MMMM YYYY, H:mm:ss");
     // Construct our final output message.
-    // TODO: Improve this to work in light of multiple system options.
-    var messageText = `*Current EVE date/time is* **${eveTimeFormatted}**.`;
+    var messageText = `In EVE it's currently: **${eveTimeFormatted}**.`;
     message.channel.send(messageText);
 };

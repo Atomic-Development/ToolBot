@@ -1,0 +1,20 @@
+{
+    "token": "NzMwNDU1MTQyMDI5MzI4Mzk1.Xw-BUw.mEDmTmoX94j1hSCyM-quzhLXGXQ",
+    "prefix": "!",
+    "fwurl": "https://market.fuzzwork.co.uk/aggregates/",
+    "epurl": "https://evepraisal.com/appraisal.json",
+    "systemAliases": {
+        "amy" : "amygnon",
+        "hsc" : "amygnon",
+        "soli" : "boystin",
+        "solitude":"boystin",
+        "innu": "j211936",
+        "innendo": "j211936",
+        "whc": "j211936",
+        "nsc": "pc9-ay",
+        "amc": "shemah"
+    },
+    "administrators": [
+        "679287061039284235"
+    ]
+}

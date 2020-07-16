@@ -29,13 +29,12 @@ function makeAnoikisLink(name) {
 }
 
 exports.run = async (client, message, args) => {
-    var system = args[0];
-    if (!system) {
-        message.channel.send("Whoops, you mangled it. You need to pass a system name.");
+    if (typeof args[0] == "undefined") {
+        message.channel.send("**WHOOPS:** You mangled it. You need to pass a system name.");
+    } else if (typeof args[1] != "undefined") {
+        message.channel.send("**WHOOPS:** This command only accepts a single system name as an argument!");
     } else {
-        if (system == "innu" || system == "innuendo" || system == "Innu" || system == "Innuendo") {
-            system = "J211936";
-        }
+        var system = args[0];
         var systemSearch = await esi.getSearchResults(
             system,
             "solar_system",
