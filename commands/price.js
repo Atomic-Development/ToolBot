@@ -48,7 +48,7 @@ exports.run = async (client, message, args) => {
         pricesUpdated = pricesObject.updated;
         prettyUpdatedDate = moment(pricesUpdated).format("dddd, Do MMMM YYYY, H:mm:ss");
 
-        evePraisalLink = `https://evepraisal.com/${appraisalID}`
+        evePraisalLink = `https://evepraisal.com/a/${appraisalID}`
         
         systemInfoMessage = new Discord.MessageEmbed()
             .setColor('#3F704D')
