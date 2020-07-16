@@ -18,7 +18,8 @@ A system information command which returns information on the chosen system. Inc
 
 **Invocation example:** !info jita
 
-**Returns:** ![System information for Jita](https://i.imgur.com/enqGEmb.png)
+**Returns:**  
+![System information for Jita](https://i.imgur.com/enqGEmb.png)
 
 ### Ping
 
@@ -26,7 +27,8 @@ A simple online checker for the bot. Causes the bot to respond with `pong!`.
 
 **Invocation example:** !ping
 
-**Returns:** `pong!`
+**Returns:**  
+`pong!`
 
 ### Price
 
@@ -34,4 +36,5 @@ A price check command that returns [EVEPraisal](https://evepraisal.com) results 
 
 **Invocation example:** !price jita fedo
 
-**Returns:** ![Price information for Fedo in Jita](https://i.imgur.com/H6iMMPJ.png)
+**Returns:**  
+![Price information for Fedo in Jita](https://i.imgur.com/H6iMMPJ.png)
