@@ -21,6 +21,8 @@ exports.run = (client, message, args) => {
       client.commands.set(commandName, props);
       message.reply(`The command ${commandName} has been reloaded`);
       console.log(`The command ${commandName} was reloaded by ${memberID}`)
+    } else {
+      message.reply("You're not authorised to reload commands")
+      console.log(`User ${memberID} tried to reload ${commandName} but I said no!`)
     }
-    
 };
