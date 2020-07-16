@@ -1,51 +1,47 @@
 // Core setup/requirements.
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const parser = require("discord-command-parser");
+const Discord = require('discord.js')
+const client = new Discord.Client()
 // Configuration.
-const config = require("./config.json");
-client.config = config;
+const config = require('./config.json')
+client.config = config
 // Third party modules.
-const cooldown = new Set();
-const Enmap = require("enmap");
-const fs = require('fs');
-const moment = require("moment-timezone")
-const prefix = config.prefix
+const Enmap = require('enmap')
+const fs = require('fs')
 
 // Events handlers.
-fs.readdir("./events/", (err, files) => {
-	if (err) return console.error(err);
-	files.forEach(file => {
-	  // If the file is not a JS file, ignore it (thanks, Apple)
-	  if (!file.endsWith(".js")) return;
-	  // Load the event file itself
-	  const event = require(`./events/${file}`);
-	  // Get just the event name from the file name
-	  let eventName = file.split(".")[0];
-	  // super-secret recipe to call events with all their proper arguments *after* the `client` var.
-	  // without going into too many details, this means each event will be called with the client argument,
-	  // followed by its "normal" arguments, like message, member, etc etc.
-	  // This line is awesome by the way. Just sayin'.
-	  client.on(eventName, event.bind(null, client));
-	  delete require.cache[require.resolve(`./events/${file}`)];
-	});
-  });
+fs.readdir('./events/', (err, files) => {
+  if (err) return console.error(err)
+  files.forEach(file => {
+    // If the file is not a JS file, ignore it (thanks, Apple)
+    if (!file.endsWith('.js')) return
+    // Load the event file itself
+    const event = require(`./events/${file}`)
+    // Get just the event name from the file name
+    let eventName = file.split('.')[0]
+    // super-secret recipe to call events with all their proper arguments *after* the `client` var.
+    // without going into too many details, this means each event will be called with the client argument,
+    // followed by its "normal" arguments, like message, member, etc etc.
+    // This line is awesome by the way. Just sayin'.
+    client.on(eventName, event.bind(null, client))
+    delete require.cache[require.resolve(`./events/${file}`)]
+  })
+})
 
 // Command handlers.
-client.commands = new Enmap();
+client.commands = new Enmap()
 
-fs.readdir("./commands/", (err, files) => {
-  if (err) return console.error(err);
+fs.readdir('./commands/', (err, files) => {
+  if (err) return console.error(err)
   files.forEach(file => {
-    if (!file.endsWith(".js")) return;
+    if (!file.endsWith('.js')) return
     // Load the command file itself
-    let props = require(`./commands/${file}`);
+    let props = require(`./commands/${file}`)
     // Get just the command name from the file name
-    let commandName = file.split(".")[0];
-    console.log(`Attempting to load command ${commandName}`);
+    let commandName = file.split('.')[0]
+    console.log(`Attempting to load command ${commandName}`)
     // Here we simply store the whole thing in the command Enmap. We're not running it right now.
-    client.commands.set(commandName, props);
-  });
-});
+    client.commands.set(commandName, props)
+  })
+})
 
-client.login(config.token);
+client.login(config.token)
