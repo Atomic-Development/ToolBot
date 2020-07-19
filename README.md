@@ -4,6 +4,8 @@
 [![GitHub Issues](https://img.shields.io/github/issues/Atomic-Development/EVETools?style=for-the-badge)](https://github.com/Atomic-Development/EVETools)
 [![License](https://img.shields.io/github/license/Atomic-Development/EVETools?style=for-the-badge)](https://atomic-development.mit-license.org/)
 
+> **NOTE:** A documentation update is incoming for the refactor. Please ignore the price command documentation/help for now!
+
 ## What is this
 
 This is the code for a [Discord](https://discord.com) bot that provides information and helpers for the [EVE Online](https://eveonline.com) MMORPG. The bot is written in JavaScript (ES6) and is available under an [MIT license](https://atomic-development.mit-license.org).
