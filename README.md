@@ -177,3 +177,4 @@ EVETools has many configurable options which live in it's `config.json` file. Th
 | epurl | URL | The URL to the EVEPraisal API or a compatible API (if one exists!) |
 | systemAliases | Array | A JSON array of alias - system pairs which allow those commands that accept system names to substitute your alias for the full system name. |
 | administrators | Array | A JSON array of administrator user IDs who are allowed to reload commands and who may be able to access additional diagnostic information. To get the ID number try to call this command without any admin users set and the console will give you the ID of the user who tried. |
+| banned | Array | A JSON array of banned user IDs who will not be allowed to interact with the bot in any way. |

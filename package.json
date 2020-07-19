@@ -7,24 +7,20 @@
     "type": "git",
     "url": "git+https://github.com/maxtsero/EVETools.git"
   },
-  "bugs" : {
+  "bugs": {
     "url": "https://github.com/maxtsero/EVETools/issues"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "date-fns": "^2.15.0",
     "discord-command-parser": "^1.4.3",
     "discord.js": "^12.2.0",
-    "enmap": "^5.3.1",
     "esijs": "^3.0.6",
-    "got": "^11.5.0",
+    "got": "^11.5.1",
     "moment": "^2.27.0",
-    "moment-timezone": "^0.5.31",
     "numeral": "^2.0.6",
-    "puppeteer": "^5.0.0",
-    "request-promise": "^4.2.5",
     "tabletojson": "^2.0.4",
-    "underscore": "^1.10.2",
-    "url-metadata": "^2.4.0"
+    "underscore": "^1.10.2"
   },
   "devDependencies": {},
   "engines": {
