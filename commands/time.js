@@ -2,7 +2,7 @@
  * Copyright (c) Max Tsero. All rights reserved.
  * Licensed under the MIT License.
  */
-const { dateFormat } = require('date-fns')
+const moment = require('moment')
 module.exports = {
   name: 'time',
   description: 'Provides the current server time.',
@@ -16,10 +16,10 @@ module.exports = {
    * @return {null}
    */
   run (client, message, args) {
-    var eveTime = new Date().toUTCString()
-    var eveTimeFormatted = dateFormat(eveTime, 'dddd, Do MMMM YYYY, H:mm')
+    var eveDate = moment.utc().format('dddd, Do MMMM YYYY')
+    var eveTime = moment.utc().format('H:mm')
     // Construct our final output message.
-    var messageText = `EVE time is currently: **${eveTimeFormatted}**.`
+    var messageText = `The time in EVE is currently: **${eveTime}**. \n The date in EVE is currently: **${eveDate}**.`
     message.channel.send(messageText)
   }
 }
