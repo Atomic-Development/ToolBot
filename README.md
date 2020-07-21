@@ -52,12 +52,13 @@ A price check command that returns [EVEPraisal](https://evepraisal.com) results 
 
 | Parameter | Type | Allowed Values | Description |
 | --------- | ---- | -------------- | ----------- |
-| Location | String | `Jita`, `Universe`, `Amarr`, `Dodixie`, `Hek`, `Rens` | Only one of the location types supported by EVEPraisal can be queried at a time. |
+| Source | String | `ep`, `evepraisal`, `em`, `evemarketer`, `fw`, `fuzzwork` | The information source to use to lookup the item/prices. |
 | Item | String | any valid item type that exists in game | Item names containing spaces should be wrapped in quotation marks. `"` |
+| Location | String | `Jita`, `Universe`, `Amarr`, `Dodixie`, `Hek`, `Rens` | Only one of the location types supported by EVEPraisal can be queried at a time. |
 
 #### Example
 
-`!price jita fedo`
+`!price ep fedo jita`
 
 #### Returns
 
