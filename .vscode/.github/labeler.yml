@@ -1,0 +1,14 @@
+command:
+- commands/*
+event:
+- events/*
+marketprovider:
+- marketproviders/*
+sde:
+- sde/*
+service:
+- services/*
+util:
+- utils/*
+core:
+- ./*
