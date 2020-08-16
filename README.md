@@ -1,8 +1,8 @@
-# EVETools - A [Discord.js](https://discordjs.org) bot for EVE Online
+# ToolBot - A [Discord.js](https://discordjs.org) bot for EVE Online
 
-[![Discord Server](https://img.shields.io/discord/733404108207292516?color=%237289DA&label=Discord&style=for-the-badge)](https://discord.gg/cRpbuex)
-[![GitHub Issues](https://img.shields.io/github/issues/Atomic-Development/EVETools?style=for-the-badge)](https://github.com/Atomic-Development/EVETools)
-[![License](https://img.shields.io/github/license/Atomic-Development/EVETools?style=for-the-badge)](https://atomic-development.mit-license.org/)
+[![Discord Server](https://img.shields.io/discord/733404108207292516?color=%237289DA&label=Discord&style=for-the-badge)](https://discord.gg/xJdPReJ)
+[![GitHub Issues](https://img.shields.io/github/issues/Atomic-Development/ToolBot?style=for-the-badge)](https://github.com/Atomic-Development/ToolBot)
+[![License](https://img.shields.io/github/license/Atomic-Development/ToolBot?style=for-the-badge)](https://atomic-development.mit-license.org/)
 
 ## What is this
 
@@ -10,9 +10,9 @@ This is the code for a [Discord](https://discord.com) bot that provides informat
 
 ## What does it do
 
-Currently the EVE Tools bot provides the following commands:
+ToolBot retrieves information from [ESI](https://esi.evetech.net) and the [EVE Online Static Data Export](https://developers.eveonline.com/resource/resources) and displays it in Discord in response to commands. Currently ToolBot provides the following commands:
 
-### Info
+### Sysinfo
 
 A system information command which returns information on the chosen system. Including *security level*, *true security*, *pirates*, *region*, *constellation*, *faction*, *minerals*, *jumps*, *ship kills*, *pod kills* and *NPC kills*. As well as helpful links to [DotLan](https://evemaps.dotlan.net), [Zkillboard](https://zkillboard.com) and [Akoik.is](https://anoik.is) for Wormhole systems.
 
@@ -24,7 +24,7 @@ A system information command which returns information on the chosen system. Inc
 
 #### Example
 
-`!info jita`
+`!sysinfo jita`
 
 #### Returns
 
@@ -44,7 +44,7 @@ A simple online checker for the bot. Causes the bot to respond with `pong!`.
 
 ### Price
 
-A price check command that returns [EVEPraisal](https://evepraisal.com) results for the prices of an item in a particular system/trade hub. Including *highest buy price*, *98th percentile of buy prices*, *lowest sell price*, *98th percentile of sell price*, *evepraisal link* and *last updated date/time*.
+A price check command that returns results for the prices of an item in a particular system/trade hub. Including *highest buy price*, *98th percentile of buy prices*, *lowest sell price*, *98th percentile of sell price*, *evepraisal link* and *last updated date/time*.
 
 #### Parameters
 
@@ -70,7 +70,7 @@ An administrator command that reloads the command file for the given command fro
 
 | Parameter | Type | Allowed Values | Description |
 | --------- | ---- | -------------- | ----------- |
-| Command | String | `info`, `ping`, `price`, `reload`, `route`, `time` | Only one of the commands supported by EVETools can be reloaded at a time. |
+| Command | String | `info`, `ping`, `price`, `reload`, `route`, `time` | Only one of the commands supported by ToolBot can be reloaded at a time. |
 
 #### Example
 
@@ -122,19 +122,19 @@ See this excellent [guide from Discord.js on how to setup your Discord bot appli
 
 ### Getting the code
 
-The first thing you'll need to do is clone this repository, the following command will clone the `latest` release into a folder named `evetools`.
+The first thing you'll need to do is clone this repository, the following command will clone the `latest` release into a folder named `toolbot`.
 
-`git clone https://github.com/Atomic-Development/EVETools --branch latest evetools`
+`git clone https://github.com/Atomic-Development/ToolBot toolbot`
 
-If you want the current development branch you can remove `--branch latest`.
+If you want the current development branch you need to add `--branch develop`.
 
-`git clone https://github.com/Atomic-Development/EVETools evetools`
+`git clone https://github.com/Atomic-Development/ToolBot --branch develop toolbot`
 
-Once you have the code you'll need to configure the bot. Luckily we've provided an example config file to get you started. Copy `config.json.example` to `config.json` and replace the values with your chosen config. See the [Configuring EVETools](#configuring-evetools) section for detailed information on each config option/parameter.
+Once you have the code you'll need to configure the bot. Luckily we've provided an example config file to get you started. Copy `.env.example` to `.env` and replace the values with your chosen config. *You can also set the configuration using Environment Variables.* See the [Configuring ToolBot](#configuring-toolbot) section for detailed information on each config option/parameter.
 
 ### Adding your bot to your server
 
-Again, the fine folks at Discord.js have written [another excellent guide on adding your bot to servers](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links). Repeating that here would be silly!
+Again, the fine folks at Discord.js have written [another excellent guide on adding your bot to servers](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links) (*you only **need** to follow the linked section to use the bot*). Repeating that here would be silly!
 
 ### Starting the bot
 
@@ -142,7 +142,7 @@ So by now, all things going well you've either:
 
 * Created a Discord bot application.
 * Downloaded the code.
-* Created your `config.json` file and configured your bot.
+* Created your `.env` file (*or setup Environment Variables*) and configured your bot.
 * Added your bot to one or more servers.
 
 Or:
@@ -155,27 +155,34 @@ In the former case you'll want to start your bot now!
 
 If you haven't been messing around with any of the files (*except the config file*) you should be able to start the bot with:
 
-`node .` or `node evetools.js`
+`node .` or `node toolbot.js`
 
 The bot will then spit out a bunch of helpful, reassuring text to let you know that it's alive:
 
-> Attempting to load command info  
-> Attempting to load command ping  
-> Attempting to load command price  
-> Attempting to load command reload  
-> Attempting to load command route  
-> Attempting to load command time  
-> Ready to serve in 135 channels on 2 servers, for a total of 968 users.
+> Skipped loading command finnan from finnan.js due to config.
+> Loaded command help from help.js
+> Loaded command ping from ping.js
+> Loaded command price from price.js
+> Loaded command reload from reload.js
+> Loaded command route from route.js
+> Loaded command sysinfo from sysinfo.js
+> Loaded command time from time.js
+> Ready to serve in 144 channels on 2 servers, for a total of 1182 users.
 
-## Configuring EVETools
+## Configuring ToolBot
 
-EVETools has many configurable options which live in it's `config.json` file. There's an example config file (`config.json.example`) in the root of the codebase for your information.
+ToolBot has many configurable options which live in it's `.env` file. There's an example config file (`.env.example`) in the root of the codebase for your information.
 
 ! Config Parameter | Type | Description |
 | ---------------- | ---- | ----------- |
-| token | String | Discord bot token (see [setting up a discord bot](#setting-up-a-discord-bot)) |
-| prefix | String | The character(s) that indicate to your bot it should parse a message as a command |
-| epurl | URL | The URL to the EVEPraisal API or a compatible API (if one exists!) |
-| systemAliases | Array | A JSON array of alias - system pairs which allow those commands that accept system names to substitute your alias for the full system name. |
-| administrators | Array | A JSON array of administrator user IDs who are allowed to reload commands and who may be able to access additional diagnostic information. To get the ID number try to call this command without any admin users set and the console will give you the ID of the user who tried. |
-| banned | Array | A JSON array of banned user IDs who will not be allowed to interact with the bot in any way. |
+| TOKEN | String | Discord bot token (see [setting up a discord bot](#setting-up-a-discord-bot)) |
+| PREFIX | String | The character(s) that indicate to your bot it should parse a message as a command |
+| COMMANDS | Array | A JSON array of commands to load from disk, useful to skip loading certain commands! |
+| EVEIMAGES | URL | The base URL for the EVE Images server, *you probably won't need to change this!* |
+| TYPEIDURL | URL | A URL pointing to a fuzzwork-like typeID lookup service, *you probably won't need to change this!* |
+| FWMARKETURL | URL | A URL pointing to a fuzzwork-compatible market lookup API, *you probably won't need to change this!* |
+| EPITEMURL | URL | A URL pointing to an evepraisal-compatible market lookup API, *you probably won't need to change this!* |
+| EMURL | URL | A URL pointing to an evemarketer-compatible market lookup API, *you probably won't need to change this!* |
+| SYSTEMALIASES | Object | A JSON object of alias - system pairs which allow those commands that accept system names to substitute your alias for the full system name. |
+| ADMINISTRATORS | Array | A JSON array of administrator user IDs who are allowed to reload commands and who may be able to access additional diagnostic information. To get the ID number try to call this command without any admin users set and the console will give you the ID of the user who tried. |
+| BANNED | Array | A JSON array of banned user IDs who will not be allowed to interact with the bot in any way. |

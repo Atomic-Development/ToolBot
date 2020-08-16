@@ -38,7 +38,8 @@ module.exports = {
         system = alias.systemChecker(system)
       }
       var systemID
-      var systemSearch = await sdeSolarSystems.find(systemData => systemData.solarSystemName = system)
+      var systemSearchRegex = new RegExp(`^${system}`, "i")
+      var systemSearch = await _.find(sdeSolarSystems, function (systemData) { return systemSearchRegex.exec(systemData.solarSystemName)})
       if (typeof systemSearch === 'undefined') {
         var systemSearch = await esi.getSearchResults(
           system,
@@ -46,7 +47,7 @@ module.exports = {
           'fuzzy'
         )
         systemID = systemSearch['solar_system'].shift()
-        systemInfo = sdeSolarSystems.find(systemData => systemData.solarSystemID = systemID)
+        systemInfo = _.find(sdeSolarSystems, function (systemData) { return systemData.solarSystemID === systemID })
       } else {
         systemID = systemSearch.solarSystemID
         systemInfo = systemSearch
@@ -55,30 +56,20 @@ module.exports = {
         // No search results!
         message.channel.send("**WHOOPS:** That system name didn't return any usable results!")
       } else {
-        // console.log("Search result(s):", systemSearch);
         let systemName = systemInfo.solarSystemName
-        // console.log("System Name:", systemName);
         let systemConstellationID = systemInfo.constellationID
-        let systemConstellationInfo = await sdeConstellations.find(constellationData => constellationData.constellationID = systemConstellationID)
-        // console.log("System Constellation Info", systemConstellationInfo);
+        let systemConstellationInfo = await _.find(sdeConstellations, function (constellationData) { return constellationData.constellationID === systemConstellationID })
         let systemConstellationName = systemConstellationInfo.constellationName
-        // console.log("System Constellation Name:", systemConstellationName);
         let systemRegionID = systemConstellationInfo.regionID
-        let systemRegionInfo = await sdeRegions.find(regionData => regionData.regionID = systemRegionID)
-        // console.log("System Region Info:", systemRegionInfo);
+        let systemRegionInfo = await _.find(sdeRegions, function (regionData) { return regionData.regionID === systemRegionID })
         let systemRegionName = systemRegionInfo.regionName
-        // console.log("System Region Name:", systemRegionName);
         let systemFactionID = systemInfo.factionID
         let systemSecurity = round(systemInfo.security, 1)
         let securityClass = systemInfo.securityClass
         let secLevel = setSystemSecurity(systemSecurity, securityClass)
-        // console.log("Security Level:", secLevel);
         let trueSec = round(systemInfo.security, 5)
-        // console.log("Security Status:", systemSecurity);
         let allSystemKills = await esi.getAllSystemKills()
-        // console.log("All System Kills", allSystemKills);
         let systemKills = await esi.getSystemKills(systemID, allSystemKills)
-        // console.log("System Kills:", systemKills);
         let systemKillsObject = systemKills.shift()
         let systemDotlanLink = makeDotlanLink(systemID, 'system')
         let regionDotlanLink = makeDotlanLink(systemRegionID, 'region')
@@ -92,58 +83,48 @@ module.exports = {
         let systemShipKills
         let systemImage
         let systemJumps
+        let systemLinks
         let faction
         if (secLevel !== 'Wormhole') {
           if (_.isEmpty(systemKillsObject)) {
             systemNPCKills = 'err'
-            // console.log("NPC Kills:", systemNPCKills);
             systemPodKills = 'err'
-            // console.log("Pod Kills:", systemPodKills);
             systemShipKills = 'err'
           } else {
             systemNPCKills = systemKillsObject['npc_kills']
-            // console.log("NPC Kills:", systemNPCKills);
             systemPodKills = systemKillsObject['pod_kills']
-            // console.log("Pod Kills:", systemPodKills);
             systemShipKills = systemKillsObject['ship_kills']
-            // console.log("Ship Kills:", systemShipKills);
           }
           let allSystemJumps = await esi.getAllSystemJumps()
-          // console.log("All System Jumps:", allSystemJumps);
           let systemJumpsAPI = await esi.getSystemJumps(systemID, allSystemJumps)
           let systemJumpsObject = systemJumpsAPI.shift()
-          let factionInfo = sdeFactions.find(factionData => factionData.factionID = systemFactionID)
+          let factionInfo = await _.find(sdeFactions, function (factionData) { return factionData.factionID === systemFactionID })
           faction = factionInfo.factionName
           systemJumps = systemJumpsObject['ship_jumps']
-          systemImage = `${}`
+          systemImage = makeImageLink(factionInfo.factionID, 'corporations')
+          systemLinks = `${zkillboardLinked} | ${evePrismLinked}`
         } else {
           systemImage = 'https://wiki.eveuniversity.org/images/e/e0/Systems.png'
-        }
-        if (secLevel === 'Wormhole') {
           var systemAnoikisLink = makeAnoikisLink(systemName)
           var anoikisLinked = `[Anoikis](${systemAnoikisLink})`
+          systemLinks = `${anoikisLinked} | ${zkillboardLinked} | ${evePrismLinked}`
         }
         let systemInfoMessage = new Discord.MessageEmbed()
           .setColor('#ffa500')
           .setTitle(systemName)
-          .setDescription(`System information from ESI for ${systemName}.`)
-          // .setImage(systemImage)
           .setThumbnail(systemImage)
           .setURL(systemDotlanLink)
           .addField('Security Level', `${systemSecurity} (${secLevel})`, true)
           .addField('True Security', `${trueSec}`, true)
           .addField('Region', regionNameLinked, true)
           .addField('Constellation', `${systemConstellationName}`, true)
-          .addField('Faction', `${faction}`, true)
-          .addField('ZKillBoard', `${zkillboardLinked}`, true)
-          .addField('EVE Prism', `${evePrismLinked}`, true)
+          .addField('Links', `${systemLinks}`, true)
         if (secLevel !== 'Wormhole') {
-          systemInfoMessage.addField('Jumps (1hr)', `${systemJumps}`, true)
+          systemInfoMessage.addField('Faction', `${faction}`, true)
+            .addField('Jumps (1hr)', `${systemJumps}`, true)
             .addField('Ship Kills (1hr)', `${systemShipKills}`, true)
             .addField('Pod Kills (1hr)', `${systemPodKills}`, true)
             .addField('NPC Kills (1hr)', `${systemNPCKills}`, true)
-        } else {
-          systemInfoMessage.addField('Anoik.is Link', anoikisLinked, true)
         }
         message.channel.send(systemInfoMessage)
       }
@@ -169,7 +150,7 @@ function makeDotlanLink (ID, type) {
  */
 function makeZkillboardLink (ID) {
   let zKillboardUrl = 'https://zkillboard.com'
-  let page = `system/${ID}`
+  let page = `system/${ID}/`
   let zklink = `${zKillboardUrl}/${page}`
   return zklink
 }
@@ -192,7 +173,7 @@ function makeAnoikisLink (name) {
 function makeEvePrismLink (name) {
   let evePrismURL = 'https://eve-prism.com'
   let page = `?view=system&name=${name}`
-  let eplink = `${evePrismURL}`/`${page}`
+  let eplink = `${evePrismURL}/${page}`
   return eplink
 }
 /**
@@ -231,7 +212,7 @@ function setSystemSecurity (systemSecurity, securityClass) {
   } else if (between(systemSecurity, '0.1', '0.4')) {
     secLevel = 'Low'
   } else if (between(systemSecurity, '-1.0', '0.0')) {
-    if (typeof securityClass === 'undefined') {
+    if (securityClass === null) {
       secLevel = 'Wormhole'
     } else {
       secLevel = 'Null'

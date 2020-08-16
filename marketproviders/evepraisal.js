@@ -21,14 +21,14 @@ async function evepraisalLookup (market, itemType) {
   let marketLookupResult
   var itemTypeID = itemType.typeID
   var itemName = itemType.typeName
-  let result = await evepraisalGetItemPrices(itemTypeID)
+  const result = await evepraisalGetItemPrices(itemTypeID)
   if (typeof result === 'undefined') {
     marketSearchResults = {
       'status': 'error',
       'errorMsg': '**WHOOPS:** An unknown error occured. Please contact Atomic Development on Discord: https://discord.gg/uwdsKW.',
       'source': 'EVE Tools'
     }
-  } else if ("error_message" in result) {
+  } else if ('error_message' in result) {
     marketSearchResults = {
       'status': 'error',
       'errorMsg': `${result.error_title} - ${result.error_message}`,
