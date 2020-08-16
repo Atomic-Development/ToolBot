@@ -1,12 +1,12 @@
 # EVETools - A [Discord.js](https://discordjs.org) bot for EVE Online
 
-[![Discord Server](https://img.shields.io/discord/733404108207292516?color=%237289DA&label=Discord&style=for-the-badge)](https://discord.gg/xJdPReJ)
+[![Discord Server](https://img.shields.io/discord/733404108207292516?color=%237289DA&label=Discord&style=for-the-badge)](https://discord.gg/cRpbuex)
 [![GitHub Issues](https://img.shields.io/github/issues/Atomic-Development/EVETools?style=for-the-badge)](https://github.com/Atomic-Development/EVETools)
 [![License](https://img.shields.io/github/license/Atomic-Development/EVETools?style=for-the-badge)](https://atomic-development.mit-license.org/)
 
 ## What is this
 
-This is the code for a [Discord](https://discord.com) bot that provides information and helpers for the [EVE Online](https://eveonline.com) MMORPG. The bot is written in JavaScript (ES6) and is available under an [MIT license](https://atomic-development.mit-license.org).
+This is the code for a [Discord](https://discord.com) bot that provides information and helpers for the [EVE Online](https://eveonline.com) MMORPG. The bot is written in JavaScript (ES5) and is available under an [MIT license](https://atomic-development.mit-license.org).
 
 ## What does it do
 

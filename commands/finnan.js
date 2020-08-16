@@ -2,10 +2,9 @@
  * Copyright (c) Max Tsero. All rights reserved.
  * Licensed under the MIT License.
  */
-const moment = require('moment')
 module.exports = {
-  name: 'time',
-  description: 'Provides the current server time.',
+  name: 'finnan',
+  description: 'Recites the Finnan\'s prayer.',
   usage: '',
   cooldown: 5,
   /**
@@ -16,10 +15,20 @@ module.exports = {
    * @return {null}
    */
   run (client, message, args) {
-    var eveDate = moment.utc().format('dddd, Do MMMM YYYY')
-    var eveTime = moment.utc().format('HH:mm')
     // Construct our final output message.
-    var messageText = `The time in EVE is currently: **${eveTime}** on ${eveDate}.`
+    var messageText = `> Our Finnan, who art in Nullsec,
+    > Hallowed be thy BLOPs.
+    > Thy Bombers come,
+    > Thy clorping be done,
+    > in null, as it is in WH.
+    > Give us this day our daily bridge,
+    > as we destroy those who trespass against us!
+    > Lead us not into explosions,
+    > but deliver our damage.
+    > For thine is the killmail,
+    > the loot and the glory.
+    > For ever and ever
+    > Finnan.`
     message.channel.send(messageText)
   }
 }

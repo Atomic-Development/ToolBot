@@ -3,12 +3,13 @@
  * Licensed under the MIT License.
  */
 const got = require('got')
-const { fwMarketURL, eveImages } = require('../config.json')
 const { priceFormat } = require('../utils/strings')
 const moment = require('moment')
 const _ = require('underscore')
 const { keyExists } = require('../utils/collections')
-const market = require('esijs/Functions/market')
+const env = require('env-var')
+const fwMarketURL = env.get('FWMARKETURL').asString()
+const eveImages = env.get('EVEIMAGES').asString()
 /**
  * Collates information from Fuzzwork's API into an object.
  * @param {string} location - The location/market to lookup pricing in.
@@ -23,7 +24,13 @@ async function fuzzworkLookup (location, itemType) {
   let locationID = locationObject.id
   let locationName = locationObject.name
   var marketData = await fuzzworkGetItemPrices(locationID, itemTypeID)
-  if (keyExists('message', marketData)) {
+  if (typeof marketData === 'undefined') {
+    marketSearchResults = {
+      'status': 'error',
+      'errorMsg': '**WHOOPS:** An unknown error occured. Please contact Atomic Development on Discord: https://discord.gg/uwdsKW.',
+      'source': 'EVE Tools'
+    }
+  } else if (keyExists('message', marketData)) {
     marketSearchResults = {
       'status': 'error',
       'errormsg': `${marketData.message}`,

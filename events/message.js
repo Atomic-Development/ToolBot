@@ -3,13 +3,16 @@
  * Licensed under the MIT License.
  */
 const Discord = require('discord.js')
+const env = require('env-var')
 const parser = require('discord-command-parser')
 const _ = require('underscore')
+
+const prefix = env.get('PREFIX').asString()
+const banned = env.get('BANNED').asJsonArray()
+
 module.exports = {
   name: 'message',
   listen (client, message) {
-    var prefix = client.config.prefix
-    var banned = client.config.banned
     var id = message.author.id
     var tag = message.author.tag
     // Ignore all bots
@@ -18,7 +21,7 @@ module.exports = {
       console.log(`Banned user ${tag} (${id}) tried to use the bot.`)
       return
     }
-    // Ignore messages not starting with the prefix (in config.json)
+    // Ignore messages not starting with the prefix.
     if (!message.content.startsWith(prefix) || message.author.bot) return
     var parsed = parser.parse(message, prefix)
     if (!parsed.success) return

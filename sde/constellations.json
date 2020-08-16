@@ -1,0 +1,6878 @@
+[
+  {
+    "regionID": 10000001,
+    "constellationID": 20000001,
+    "constellationName": "San Matar",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000002,
+    "constellationName": "Anares",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000003,
+    "constellationName": "Mamouna",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000004,
+    "constellationName": "Kalangin",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000005,
+    "constellationName": "Hevaka",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000006,
+    "constellationName": "Sazdih",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000007,
+    "constellationName": "Ananah",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000008,
+    "constellationName": "Mossas",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000009,
+    "constellationName": "Mekashtad",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000010,
+    "constellationName": "Bedaleya",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000011,
+    "constellationName": "Orshed",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000012,
+    "constellationName": "Oraron",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000013,
+    "constellationName": "Aguh",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000014,
+    "constellationName": "Mal",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000015,
+    "constellationName": "Subi",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000001,
+    "constellationID": 20000016,
+    "constellationName": "Joas",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000017,
+    "constellationName": "Ruomo",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000018,
+    "constellationName": "Anttanen",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000019,
+    "constellationName": "Ihilakken",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000020,
+    "constellationName": "Kimotoro",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000021,
+    "constellationName": "Okomon",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000022,
+    "constellationName": "Onirvura",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000023,
+    "constellationName": "Ihatalo",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000024,
+    "constellationName": "Okkelen",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000025,
+    "constellationName": "Otsabaira",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000026,
+    "constellationName": "Aulari",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000027,
+    "constellationName": "Etsala",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000028,
+    "constellationName": "Mivora",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000002,
+    "constellationID": 20000029,
+    "constellationName": "Orpana",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000030,
+    "constellationName": "U29-0S",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000031,
+    "constellationName": "BUG6-X",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000032,
+    "constellationName": "OSJ7-I",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000033,
+    "constellationName": "DMXN-3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000034,
+    "constellationName": "I89-EP",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000035,
+    "constellationName": "Z-DO53",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000036,
+    "constellationName": "YUT3-U",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000037,
+    "constellationName": "5YHF-H",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000038,
+    "constellationName": "UK-MI6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000039,
+    "constellationName": "YDS0-Y",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000040,
+    "constellationName": "A3-T8B",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000041,
+    "constellationName": "DILJ-7",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000042,
+    "constellationName": "0-8MWQ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000043,
+    "constellationName": "F-V9QW",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000044,
+    "constellationName": "E-8CSQ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000045,
+    "constellationName": "9KX-M0",
+    "factionID": null
+  },
+  {
+    "regionID": 10000003,
+    "constellationID": 20000046,
+    "constellationName": "88G-M4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000047,
+    "constellationName": "L5-H1O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000048,
+    "constellationName": "J-4QD7",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000049,
+    "constellationName": "LC-AQD",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000050,
+    "constellationName": "7PUP-K",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000051,
+    "constellationName": "V8UW-M",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000052,
+    "constellationName": "T7B-VB",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000053,
+    "constellationName": "B-PHYN",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000054,
+    "constellationName": "9RW5-Z",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000055,
+    "constellationName": "VL-OGL",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000056,
+    "constellationName": "VW-JMB",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000057,
+    "constellationName": "HN5-RL",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000058,
+    "constellationName": "RO-AZT",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000059,
+    "constellationName": "KCR-1E",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000060,
+    "constellationName": "FL-TD4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000061,
+    "constellationName": "B-HLOG",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "constellationID": 20000062,
+    "constellationName": "0VFS-G",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000063,
+    "constellationName": "GJH-1C",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000064,
+    "constellationName": "RFQ-8Y",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000065,
+    "constellationName": "MZ-PA2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000066,
+    "constellationName": "5F8-PZ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000067,
+    "constellationName": "PR-ACX",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000068,
+    "constellationName": "5P4-QA",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000069,
+    "constellationName": "1RG-GU",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000070,
+    "constellationName": "ZPI-2E",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000071,
+    "constellationName": "D-95MV",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000072,
+    "constellationName": "3R-BJL",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000073,
+    "constellationName": "T875-C",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000074,
+    "constellationName": "4SRW-B",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000075,
+    "constellationName": "HOV-VI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "constellationID": 20000076,
+    "constellationName": "NZU8-G",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000077,
+    "constellationName": "0FC-ZX",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000078,
+    "constellationName": "AC-RON",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000079,
+    "constellationName": "RF9-ZU",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000080,
+    "constellationName": "DJ-XCW",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000081,
+    "constellationName": "3GK-WS",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000082,
+    "constellationName": "5ZR-29",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000083,
+    "constellationName": "J-9M7D",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000084,
+    "constellationName": "R-M719",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000085,
+    "constellationName": "5Y1E-3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000086,
+    "constellationName": "760-9C",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000087,
+    "constellationName": "4-QV2L",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "constellationID": 20000088,
+    "constellationName": "GU-JZ1",
+    "factionID": null
+  },
+  {
+    "regionID": 10000007,
+    "constellationID": 20000089,
+    "constellationName": "BVA-YH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000007,
+    "constellationID": 20000090,
+    "constellationName": "VS-8P0",
+    "factionID": null
+  },
+  {
+    "regionID": 10000007,
+    "constellationID": 20000091,
+    "constellationName": "5HN-S5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000007,
+    "constellationID": 20000092,
+    "constellationName": "Y-JSM8",
+    "factionID": null
+  },
+  {
+    "regionID": 10000007,
+    "constellationID": 20000093,
+    "constellationName": "VSC-W9",
+    "factionID": null
+  },
+  {
+    "regionID": 10000007,
+    "constellationID": 20000094,
+    "constellationName": "FQ-COP",
+    "factionID": null
+  },
+  {
+    "regionID": 10000007,
+    "constellationID": 20000095,
+    "constellationName": "MRC-29",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000096,
+    "constellationName": "51ZT-6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000097,
+    "constellationName": "4YFT-F",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000098,
+    "constellationName": "P-I9PF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000099,
+    "constellationName": "ENP-SH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000100,
+    "constellationName": "Y-M7ML",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000101,
+    "constellationName": "QI1M-Q",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000102,
+    "constellationName": "7VJ-7M",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000103,
+    "constellationName": "02QH-A",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000104,
+    "constellationName": "WQZ8-4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000105,
+    "constellationName": "DITJ-X",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000106,
+    "constellationName": "YCM-AI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "constellationID": 20000107,
+    "constellationName": "CN5-F2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000108,
+    "constellationName": "IV-LWJ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000109,
+    "constellationName": "U-EUG7",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000110,
+    "constellationName": "E-95ID",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000111,
+    "constellationName": "8-4EFQ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000112,
+    "constellationName": "Z-ONUI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000113,
+    "constellationName": "QA-P7J",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000114,
+    "constellationName": "UR-HG4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000115,
+    "constellationName": "0YMH-Q",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000116,
+    "constellationName": "0EA3-8",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000117,
+    "constellationName": "0-YMZM",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000118,
+    "constellationName": "N5V-Y0",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000119,
+    "constellationName": "N-LY4R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000120,
+    "constellationName": "V2S-RH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000121,
+    "constellationName": "FD-7Y4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000122,
+    "constellationName": "TL-FDN",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "constellationID": 20000123,
+    "constellationName": "R-CL2W",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "constellationID": 20000124,
+    "constellationName": "1P-VL2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "constellationID": 20000125,
+    "constellationName": "X-VN63",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "constellationID": 20000126,
+    "constellationName": "LLAP-1",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "constellationID": 20000127,
+    "constellationName": "52-JKU",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "constellationID": 20000128,
+    "constellationName": "E3-NLE",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "constellationID": 20000129,
+    "constellationName": "GORV-P",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "constellationID": 20000130,
+    "constellationName": "03C-SU",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "constellationID": 20000131,
+    "constellationName": "W-XBGF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000132,
+    "constellationName": "730-KH",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000133,
+    "constellationName": "U-3HAO",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000134,
+    "constellationName": "K-DLD2",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000135,
+    "constellationName": "V-LQBF",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000136,
+    "constellationName": "BB8E-G",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000137,
+    "constellationName": "IYOO-M",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000138,
+    "constellationName": "Q-PVMK",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000139,
+    "constellationName": "AP-S8F",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000140,
+    "constellationName": "T-W4L3",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000141,
+    "constellationName": "V-4QJC",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000142,
+    "constellationName": "DYK-G8",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000143,
+    "constellationName": "L-TEVM",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000144,
+    "constellationName": "HRJG-D",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000145,
+    "constellationName": "W-3Y6D",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000011,
+    "constellationID": 20000146,
+    "constellationName": "I3-2J0",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000012,
+    "constellationID": 20000147,
+    "constellationName": "Tranquility",
+    "factionID": 500011
+  },
+  {
+    "regionID": 10000012,
+    "constellationID": 20000148,
+    "constellationName": "Paradise",
+    "factionID": 500011
+  },
+  {
+    "regionID": 10000012,
+    "constellationID": 20000149,
+    "constellationName": "Elysium",
+    "factionID": 500011
+  },
+  {
+    "regionID": 10000012,
+    "constellationID": 20000150,
+    "constellationName": "Sound",
+    "factionID": 500011
+  },
+  {
+    "regionID": 10000012,
+    "constellationID": 20000151,
+    "constellationName": "Rapture",
+    "factionID": 500011
+  },
+  {
+    "regionID": 10000012,
+    "constellationID": 20000152,
+    "constellationName": "Hale",
+    "factionID": 500011
+  },
+  {
+    "regionID": 10000012,
+    "constellationID": 20000153,
+    "constellationName": "Heaven",
+    "factionID": 500011
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000154,
+    "constellationName": "4R-HUN",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000155,
+    "constellationName": "XI0-X2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000156,
+    "constellationName": "1M4-FN",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000157,
+    "constellationName": "UL8-RD",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000158,
+    "constellationName": "3TS-12",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000159,
+    "constellationName": "E6EO-H",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000160,
+    "constellationName": "PFL-QY",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000161,
+    "constellationName": "7UNX-J",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000162,
+    "constellationName": "D-YKXH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000163,
+    "constellationName": "G-HISF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000164,
+    "constellationName": "GDBW-2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000165,
+    "constellationName": "WS5L-X",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000166,
+    "constellationName": "MW49-U",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000167,
+    "constellationName": "PX0-P4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000013,
+    "constellationID": 20000168,
+    "constellationName": "2747-4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000169,
+    "constellationName": "UX3-N2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000170,
+    "constellationName": "N-OGI1",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000171,
+    "constellationName": "EM-L3K",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000172,
+    "constellationName": "ZW-BY5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000173,
+    "constellationName": "JZV-O6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000174,
+    "constellationName": "XR9-LP",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000175,
+    "constellationName": "9HXQ-G",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000176,
+    "constellationName": "FDR-EQ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000177,
+    "constellationName": "T-1WDH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000178,
+    "constellationName": "A-JI5E",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000179,
+    "constellationName": "T-HHHT",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000180,
+    "constellationName": "NNLX-K",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000181,
+    "constellationName": "6JCS-4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000182,
+    "constellationName": "U-JTBT",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "constellationID": 20000183,
+    "constellationName": "BRP2-K",
+    "factionID": null
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000184,
+    "constellationName": "1G-8KY",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000185,
+    "constellationName": "ST-0EZ",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000186,
+    "constellationName": "48R-PS",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000187,
+    "constellationName": "N32Z-Z",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000188,
+    "constellationName": "UTZ-7B",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000189,
+    "constellationName": "E-I1JW",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000190,
+    "constellationName": "W9MQ-1",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000191,
+    "constellationName": "XHYS-O",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000192,
+    "constellationName": "Y8-HHZ",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000193,
+    "constellationName": "Y8HB-U",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000194,
+    "constellationName": "XMNF-7",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000195,
+    "constellationName": "L-1T22",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000196,
+    "constellationName": "0HD-6C",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000015,
+    "constellationID": 20000197,
+    "constellationName": "0KTC-R",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000198,
+    "constellationName": "Okunda",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000199,
+    "constellationName": "Koichi",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000200,
+    "constellationName": "Haurala",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000201,
+    "constellationName": "Okela",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000202,
+    "constellationName": "Kaala",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000203,
+    "constellationName": "Makiriemi",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000204,
+    "constellationName": "Sela",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000205,
+    "constellationName": "Minnen",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000206,
+    "constellationName": "Karnola",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000207,
+    "constellationName": "Kainokai",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000208,
+    "constellationName": "Pietanen",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000209,
+    "constellationName": "Asalola",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000210,
+    "constellationName": "Malariya",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000211,
+    "constellationName": "Umamon",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000016,
+    "constellationID": 20000212,
+    "constellationName": "Mito",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000213,
+    "constellationName": "1-Z95W",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000214,
+    "constellationName": "OG-DJD",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000215,
+    "constellationName": "05-1B6",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000216,
+    "constellationName": "WSC-AL",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000217,
+    "constellationName": "BS8-ZQ",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000218,
+    "constellationName": "I4-DK8",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000219,
+    "constellationName": "4I-WP1",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000220,
+    "constellationName": "NSM-6F",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000221,
+    "constellationName": "F-8DMX",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000222,
+    "constellationName": "D-YMGR",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000223,
+    "constellationName": "2RX9-6",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000017,
+    "constellationID": 20000224,
+    "constellationName": "3A-CND",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000225,
+    "constellationName": "Z6T6-B",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000226,
+    "constellationName": "OC-TTA",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000227,
+    "constellationName": "J0-59Y",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000228,
+    "constellationName": "3D-ROC",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000229,
+    "constellationName": "4-0VL9",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000230,
+    "constellationName": "E-UBWI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000231,
+    "constellationName": "E1L-UY",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000232,
+    "constellationName": "P-FL48",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000233,
+    "constellationName": "OWT3-6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000234,
+    "constellationName": "E65-47",
+    "factionID": null
+  },
+  {
+    "regionID": 10000018,
+    "constellationID": 20000235,
+    "constellationName": "MY-HQD",
+    "factionID": null
+  },
+  {
+    "regionID": 10000019,
+    "constellationID": 20000236,
+    "constellationName": "O-BSIB",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000019,
+    "constellationID": 20000237,
+    "constellationName": "W1-F3U",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000019,
+    "constellationID": 20000238,
+    "constellationName": "826-A5",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000019,
+    "constellationID": 20000239,
+    "constellationName": "6I-9Y2",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000019,
+    "constellationID": 20000240,
+    "constellationName": "B9J-NT",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000019,
+    "constellationID": 20000241,
+    "constellationName": "UN2H-D",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000019,
+    "constellationID": 20000242,
+    "constellationName": "F-0CTG",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000243,
+    "constellationName": "Sanair",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000244,
+    "constellationName": "Somi",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000245,
+    "constellationName": "Mise",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000246,
+    "constellationName": "Emsek",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000247,
+    "constellationName": "Arvachah",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000248,
+    "constellationName": "Mimishia",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000249,
+    "constellationName": "Sukanan",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000250,
+    "constellationName": "Damadil",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000251,
+    "constellationName": "Rifenda",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000252,
+    "constellationName": "Nasorin",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000253,
+    "constellationName": "Tsemshatel",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000254,
+    "constellationName": "Anidaza",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000255,
+    "constellationName": "Ajah",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000256,
+    "constellationName": "Subhatoub",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000020,
+    "constellationID": 20000257,
+    "constellationName": "Peges",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000258,
+    "constellationName": "B-D245",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000259,
+    "constellationName": "X5O9-E",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000260,
+    "constellationName": "J33-JR",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000261,
+    "constellationName": "AGI1-F",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000262,
+    "constellationName": "U-IOR1",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000263,
+    "constellationName": "NPL-WH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000264,
+    "constellationName": "IM-8S5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000265,
+    "constellationName": "7-ZDOK",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000266,
+    "constellationName": "6GU-AT",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000267,
+    "constellationName": "2FYX-H",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000268,
+    "constellationName": "NOB-HD",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000269,
+    "constellationName": "C9XB-L",
+    "factionID": null
+  },
+  {
+    "regionID": 10000021,
+    "constellationID": 20000270,
+    "constellationName": "KPU3-3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000271,
+    "constellationName": "5VN-B7",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000272,
+    "constellationName": "41JS-R",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000273,
+    "constellationName": "H26A-B",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000274,
+    "constellationName": "Y-2D6Q",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000275,
+    "constellationName": "U7L-MQ",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000276,
+    "constellationName": "XJ-0RG",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000277,
+    "constellationName": "H-QXM7",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000278,
+    "constellationName": "T-L301",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000279,
+    "constellationName": "QO-17V",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000280,
+    "constellationName": "VH1-NS",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000281,
+    "constellationName": "Q4IG-S",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000282,
+    "constellationName": "JG-ZLG",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000283,
+    "constellationName": "V-H3V0",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000284,
+    "constellationName": "W-ULNA",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000285,
+    "constellationName": "SB3-IH",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000286,
+    "constellationName": "Z01V-Z",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000287,
+    "constellationName": "WF-OP4",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000022,
+    "constellationID": 20000288,
+    "constellationName": "R-IZDC",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000289,
+    "constellationName": "MDM8-J",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000290,
+    "constellationName": "U8-CWA",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000291,
+    "constellationName": "38G6-L",
+    "factionID": 500016
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000292,
+    "constellationName": "YS-GOP",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000293,
+    "constellationName": "WMP-OF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000294,
+    "constellationName": "LY-FY6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000295,
+    "constellationName": "U-7RBK",
+    "factionID": 500018
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000296,
+    "constellationName": "G8-D09",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000297,
+    "constellationName": "304Z-R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000298,
+    "constellationName": "K-QUVW",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000299,
+    "constellationName": "LN-L8L",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000300,
+    "constellationName": "S4GH-I",
+    "factionID": null
+  },
+  {
+    "regionID": 10000023,
+    "constellationID": 20000301,
+    "constellationName": "0A-73B",
+    "factionID": null
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000302,
+    "constellationName": "Barvigrard",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000303,
+    "constellationName": "Tiat",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000304,
+    "constellationName": "Aldodan",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000305,
+    "constellationName": "Ani",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000306,
+    "constellationName": "Fribrodi",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000307,
+    "constellationName": "Eugidi",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000308,
+    "constellationName": "Essin",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000309,
+    "constellationName": "Angils",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000310,
+    "constellationName": "Q-IPAA",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000311,
+    "constellationName": "K-ZKBM",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000312,
+    "constellationName": "MY-QQI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000313,
+    "constellationName": "RTCU-5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000314,
+    "constellationName": "C73-U5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000315,
+    "constellationName": "K-N3MD",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000316,
+    "constellationName": "4MY-AB",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000317,
+    "constellationName": "Y46-EN",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000318,
+    "constellationName": "EL8Z-M",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000319,
+    "constellationName": "YENX-U",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000320,
+    "constellationName": "WTE-CK",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "constellationID": 20000321,
+    "constellationName": "IJE6-J",
+    "factionID": null
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000322,
+    "constellationName": "Throne Worlds",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000323,
+    "constellationName": "Mobit",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000324,
+    "constellationName": "Yestadan",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000325,
+    "constellationName": "Mazake",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000326,
+    "constellationName": "Kekah",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000327,
+    "constellationName": "Sosarir",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000328,
+    "constellationName": "Armi",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000329,
+    "constellationName": "Mulata",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000330,
+    "constellationName": "Nashar",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000331,
+    "constellationName": "Kehina",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000332,
+    "constellationName": "Avib",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000333,
+    "constellationName": "Liela",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000334,
+    "constellationName": "Norgoh",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000335,
+    "constellationName": "4M6-GJ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000336,
+    "constellationName": "D-GU3R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000337,
+    "constellationName": "N-APJ8",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000338,
+    "constellationName": "PGPJ-8",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000339,
+    "constellationName": "8G-JN6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000340,
+    "constellationName": "M9-AN3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000341,
+    "constellationName": "6TT8-Z",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000342,
+    "constellationName": "RDD-E6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000343,
+    "constellationName": "ICH-B6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000344,
+    "constellationName": "SLYP-5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000345,
+    "constellationName": "8AO-5V",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000346,
+    "constellationName": "J-78ZG",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000347,
+    "constellationName": "H7Q-DG",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000348,
+    "constellationName": "1VN-XC",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "constellationID": 20000349,
+    "constellationName": "PG-RWX",
+    "factionID": null
+  },
+  {
+    "regionID": 10000028,
+    "constellationID": 20000350,
+    "constellationName": "Fittakan",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000028,
+    "constellationID": 20000351,
+    "constellationName": "Tartatven",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000028,
+    "constellationID": 20000352,
+    "constellationName": "Besateoden",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000028,
+    "constellationID": 20000353,
+    "constellationName": "Almur",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000028,
+    "constellationID": 20000354,
+    "constellationName": "Eoldulf",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000028,
+    "constellationID": 20000355,
+    "constellationName": "Elfrard",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000356,
+    "constellationName": "N-K4Q0",
+    "factionID": 500017
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000357,
+    "constellationName": "UBPU-9",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000358,
+    "constellationName": "IPS-QB",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000359,
+    "constellationName": "8K-CHA",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000360,
+    "constellationName": "ZYL-FT",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000361,
+    "constellationName": "NK-AOZ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000362,
+    "constellationName": "V1G-63",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000363,
+    "constellationName": "F-ZNNG",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000364,
+    "constellationName": "KR-XF4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000365,
+    "constellationName": "RJ-1R7",
+    "factionID": null
+  },
+  {
+    "regionID": 10000029,
+    "constellationID": 20000366,
+    "constellationName": "74IL-O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000367,
+    "constellationName": "Ortner",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000368,
+    "constellationName": "Huvilma",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000369,
+    "constellationName": "Osta",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000370,
+    "constellationName": "Odengsolf",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000371,
+    "constellationName": "Wiedadur",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000372,
+    "constellationName": "Hed",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000373,
+    "constellationName": "Sveipar",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000374,
+    "constellationName": "Akimamur",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000375,
+    "constellationName": "Evannater",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000376,
+    "constellationName": "Urtfer",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000377,
+    "constellationName": "Erada",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000030,
+    "constellationID": 20000378,
+    "constellationName": "Benurad",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000031,
+    "constellationID": 20000379,
+    "constellationName": "5J-SSP",
+    "factionID": null
+  },
+  {
+    "regionID": 10000031,
+    "constellationID": 20000380,
+    "constellationName": "ZYR-NF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000031,
+    "constellationID": 20000381,
+    "constellationName": "1A-WYQ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000031,
+    "constellationID": 20000382,
+    "constellationName": "05M-I1",
+    "factionID": null
+  },
+  {
+    "regionID": 10000031,
+    "constellationID": 20000383,
+    "constellationName": "EK-NQ2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000031,
+    "constellationID": 20000384,
+    "constellationName": "O6W-QE",
+    "factionID": null
+  },
+  {
+    "regionID": 10000031,
+    "constellationID": 20000385,
+    "constellationName": "QZJ-FL",
+    "factionID": null
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000386,
+    "constellationName": "Disier",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000387,
+    "constellationName": "Gallente Border Zone",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000388,
+    "constellationName": "Spaen",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000389,
+    "constellationName": "Coriault",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000390,
+    "constellationName": "Firille",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000391,
+    "constellationName": "Jonenor",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000392,
+    "constellationName": "Algintal",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000393,
+    "constellationName": "Lolbrerie",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000394,
+    "constellationName": "Stion",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000395,
+    "constellationName": "Wyllequet",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000396,
+    "constellationName": "Agiesseson",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000397,
+    "constellationName": "Nexus",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000398,
+    "constellationName": "Aeman",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000399,
+    "constellationName": "Nadire",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000032,
+    "constellationID": 20000400,
+    "constellationName": "Ambrye",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000401,
+    "constellationName": "Imurukka",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000402,
+    "constellationName": "Nagaslaiken",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000403,
+    "constellationName": "Arekin",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000404,
+    "constellationName": "Ieyama",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000405,
+    "constellationName": "Caldari Border Zone",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000406,
+    "constellationName": "Kantanen",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000407,
+    "constellationName": "Outartoh",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000408,
+    "constellationName": "Uusasai",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000409,
+    "constellationName": "Suon",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000410,
+    "constellationName": "Otawasa",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000411,
+    "constellationName": "Tasen",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000412,
+    "constellationName": "Isoma",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000033,
+    "constellationID": 20000413,
+    "constellationName": "Santenpaa",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000414,
+    "constellationName": "6-CBBM",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000415,
+    "constellationName": "78-6RI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000416,
+    "constellationName": "2O-VY7",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000417,
+    "constellationName": "3NA-Z1",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000418,
+    "constellationName": "S4S-SD",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000419,
+    "constellationName": "U-HSM3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000420,
+    "constellationName": "8UD2-J",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000421,
+    "constellationName": "XPG-HE",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000422,
+    "constellationName": "P-B2NE",
+    "factionID": null
+  },
+  {
+    "regionID": 10000034,
+    "constellationID": 20000423,
+    "constellationName": "2Q-8WA",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000424,
+    "constellationName": "29V-1R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000425,
+    "constellationName": "Z-D6K5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000426,
+    "constellationName": "VW7-YN",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000427,
+    "constellationName": "UTQ-BO",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000428,
+    "constellationName": "N-U2LX",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000429,
+    "constellationName": "S-B1E4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000430,
+    "constellationName": "A21H-Z",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000431,
+    "constellationName": "RFY-QB",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "constellationID": 20000432,
+    "constellationName": "D-AWFI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000036,
+    "constellationID": 20000433,
+    "constellationName": "Semou",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000036,
+    "constellationID": 20000434,
+    "constellationName": "Ryra",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000036,
+    "constellationID": 20000435,
+    "constellationName": "Kisana",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000036,
+    "constellationID": 20000436,
+    "constellationName": "Jayai",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000036,
+    "constellationID": 20000437,
+    "constellationName": "Kabo",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000036,
+    "constellationID": 20000438,
+    "constellationName": "Daredan",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000036,
+    "constellationID": 20000439,
+    "constellationName": "Abthi",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000036,
+    "constellationID": 20000440,
+    "constellationName": "Enka",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000037,
+    "constellationID": 20000441,
+    "constellationName": "Osnins",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000037,
+    "constellationID": 20000442,
+    "constellationName": "Chasnaye",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000037,
+    "constellationID": 20000443,
+    "constellationName": "Ysiette",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000037,
+    "constellationID": 20000444,
+    "constellationName": "Odilis",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000037,
+    "constellationID": 20000445,
+    "constellationName": "Giatole",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000037,
+    "constellationID": 20000446,
+    "constellationName": "Elalan",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000037,
+    "constellationID": 20000447,
+    "constellationName": "Marele",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000038,
+    "constellationID": 20000448,
+    "constellationName": "Sasen",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000038,
+    "constellationID": 20000449,
+    "constellationName": "Vaarma",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000038,
+    "constellationID": 20000450,
+    "constellationName": "Ichida",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000038,
+    "constellationID": 20000451,
+    "constellationName": "Tandoiras",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000038,
+    "constellationID": 20000452,
+    "constellationName": "Ohvarainen",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000453,
+    "constellationName": "KUSW-P",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000454,
+    "constellationName": "8T-OLH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000455,
+    "constellationName": "Q-2BI6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000456,
+    "constellationName": "JSZ-X6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000457,
+    "constellationName": "R2-BT6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000458,
+    "constellationName": "3WN-1T",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000459,
+    "constellationName": "7ZRW-G",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000460,
+    "constellationName": "E-ILCH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000461,
+    "constellationName": "AJG-MV",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000462,
+    "constellationName": "O-PQU0",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000463,
+    "constellationName": "9D1V-O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000039,
+    "constellationID": 20000464,
+    "constellationName": "FY6-NK",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000465,
+    "constellationName": "WE-WLQ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000466,
+    "constellationName": "T-4ACL",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000467,
+    "constellationName": "0PS-L5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000468,
+    "constellationName": "CZ-06R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000469,
+    "constellationName": "F-W6B4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000470,
+    "constellationName": "3RU-10",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000471,
+    "constellationName": "DOCS-O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000472,
+    "constellationName": "04-LOF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000473,
+    "constellationName": "O9X-CV",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000474,
+    "constellationName": "D4J-PP",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000475,
+    "constellationName": "D61-WV",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000476,
+    "constellationName": "S-Q02B",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "constellationID": 20000477,
+    "constellationName": "4ZXC-8",
+    "factionID": null
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000478,
+    "constellationName": "Z-6NQ6",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000479,
+    "constellationName": "2-M6DE",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000480,
+    "constellationName": "Y4Y7-Q",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000481,
+    "constellationName": "DS-M4Q",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000482,
+    "constellationName": "TA-A7V",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000483,
+    "constellationName": "MK7-AO",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000484,
+    "constellationName": "YFN-UN",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000485,
+    "constellationName": "49A-BZ",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000486,
+    "constellationName": "GN-ACS",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000487,
+    "constellationName": "59H-0G",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000488,
+    "constellationName": "QS-FVH",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000489,
+    "constellationName": "6-V49K",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000490,
+    "constellationName": "SKX-PL",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000041,
+    "constellationID": 20000491,
+    "constellationName": "JQV5-9",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000492,
+    "constellationName": "Gedur",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000493,
+    "constellationName": "Lorundio",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000494,
+    "constellationName": "Ankard",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000495,
+    "constellationName": "Jonar",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000496,
+    "constellationName": "Stadakorn",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000497,
+    "constellationName": "Meinigefur",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000498,
+    "constellationName": "Aptetter",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000499,
+    "constellationName": "Ergruk",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000500,
+    "constellationName": "Brazinget",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000501,
+    "constellationName": "Frar",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000502,
+    "constellationName": "Inkelm",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000503,
+    "constellationName": "Panorad",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000504,
+    "constellationName": "Argeir",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000505,
+    "constellationName": "Rollera",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000042,
+    "constellationID": 20000506,
+    "constellationName": "Hulf",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000507,
+    "constellationName": "Fua",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000508,
+    "constellationName": "Kashag",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000509,
+    "constellationName": "Parud",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000510,
+    "constellationName": "Zemont",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000511,
+    "constellationName": "Yekti",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000512,
+    "constellationName": "Hoosa",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000513,
+    "constellationName": "Chardu",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000514,
+    "constellationName": "Maddam",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000515,
+    "constellationName": "Qeti",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000516,
+    "constellationName": "Mofa",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000517,
+    "constellationName": "Maseend",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000518,
+    "constellationName": "Nakid",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000043,
+    "constellationID": 20000519,
+    "constellationName": "Jakemhih",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000044,
+    "constellationID": 20000520,
+    "constellationName": "Braille",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000044,
+    "constellationID": 20000521,
+    "constellationName": "Elose",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000044,
+    "constellationID": 20000522,
+    "constellationName": "Orvanne",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000044,
+    "constellationID": 20000523,
+    "constellationName": "Goins",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000044,
+    "constellationID": 20000524,
+    "constellationName": "Elerelle",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000044,
+    "constellationID": 20000525,
+    "constellationName": "Mobrault",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000526,
+    "constellationName": "M-J57M",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000527,
+    "constellationName": "09-4XW",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000528,
+    "constellationName": "9P57-V",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000529,
+    "constellationName": "TJ10-O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000530,
+    "constellationName": "X-FHU3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000531,
+    "constellationName": "GFE-SS",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000532,
+    "constellationName": "2-ZRM0",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000533,
+    "constellationName": "O-EOI9",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000534,
+    "constellationName": "1D-65L",
+    "factionID": null
+  },
+  {
+    "regionID": 10000045,
+    "constellationID": 20000535,
+    "constellationName": "E-72A3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000046,
+    "constellationID": 20000536,
+    "constellationName": "XFLN-F",
+    "factionID": null
+  },
+  {
+    "regionID": 10000046,
+    "constellationID": 20000537,
+    "constellationName": "UWRZ-2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000046,
+    "constellationID": 20000538,
+    "constellationName": "7X-X1Y",
+    "factionID": null
+  },
+  {
+    "regionID": 10000046,
+    "constellationID": 20000539,
+    "constellationName": "VNX-P0",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000540,
+    "constellationName": "G2E-RJ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000541,
+    "constellationName": "4BZ-R3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000542,
+    "constellationName": "AZBG-H",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000543,
+    "constellationName": "I9B-8X",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000544,
+    "constellationName": "XV7L-S",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000545,
+    "constellationName": "ZQ2-CF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000546,
+    "constellationName": "HS7W-T",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000547,
+    "constellationName": "5-88B9",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000548,
+    "constellationName": "UD-ZJ3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000549,
+    "constellationName": "P6N8-J",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000550,
+    "constellationName": "04-H4M",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000551,
+    "constellationName": "H-KW4A",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "constellationID": 20000552,
+    "constellationName": "Q-6LG1",
+    "factionID": null
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000553,
+    "constellationName": "Viriette",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000554,
+    "constellationName": "Fislipesnes",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000555,
+    "constellationName": "Alselbosier",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000556,
+    "constellationName": "Josmaert",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000557,
+    "constellationName": "Unour",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000558,
+    "constellationName": "Ganoure",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000559,
+    "constellationName": "Pegeler",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000560,
+    "constellationName": "Beyt",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000561,
+    "constellationName": "Amevync",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000562,
+    "constellationName": "Mallugier",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000048,
+    "constellationID": 20000563,
+    "constellationName": "Serthoulde",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000564,
+    "constellationName": "Nohshayess",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000565,
+    "constellationName": "Finaka",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000566,
+    "constellationName": "Amdimmah",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000567,
+    "constellationName": "Youledian",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000568,
+    "constellationName": "Sib",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000569,
+    "constellationName": "Seevadin",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000570,
+    "constellationName": "Fekhoya",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000571,
+    "constellationName": "Arniri",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000572,
+    "constellationName": "Akar",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000573,
+    "constellationName": "Homroon",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000574,
+    "constellationName": "Budar",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000049,
+    "constellationID": 20000575,
+    "constellationName": "Alpakian",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000576,
+    "constellationName": "H-6HGD",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000577,
+    "constellationName": "PUB-0R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000578,
+    "constellationName": "YB7B-8",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000579,
+    "constellationName": "A-Z7C9",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000580,
+    "constellationName": "9NP-KR",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000581,
+    "constellationName": "8BO-IH",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000582,
+    "constellationName": "K-JO26",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000583,
+    "constellationName": "F-RA63",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000584,
+    "constellationName": "8ET-D1",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000585,
+    "constellationName": "MPJW-6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000586,
+    "constellationName": "3B-IWE",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000587,
+    "constellationName": "LI-BA0",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000588,
+    "constellationName": "4QZ-2M",
+    "factionID": null
+  },
+  {
+    "regionID": 10000050,
+    "constellationID": 20000589,
+    "constellationName": "XLL-Z7",
+    "factionID": null
+  },
+  {
+    "regionID": 10000051,
+    "constellationID": 20000590,
+    "constellationName": "Yrton",
+    "factionID": null
+  },
+  {
+    "regionID": 10000051,
+    "constellationID": 20000591,
+    "constellationName": "Balenne",
+    "factionID": null
+  },
+  {
+    "regionID": 10000051,
+    "constellationID": 20000592,
+    "constellationName": "Tinnimerci",
+    "factionID": null
+  },
+  {
+    "regionID": 10000051,
+    "constellationID": 20000593,
+    "constellationName": "Prelle",
+    "factionID": null
+  },
+  {
+    "regionID": 10000051,
+    "constellationID": 20000594,
+    "constellationName": "Assilot",
+    "factionID": null
+  },
+  {
+    "regionID": 10000051,
+    "constellationID": 20000595,
+    "constellationName": "Miennue",
+    "factionID": null
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000596,
+    "constellationName": "Megeh",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000597,
+    "constellationName": "Kakol",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000598,
+    "constellationName": "Febihkin",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000599,
+    "constellationName": "Trigentia",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000600,
+    "constellationName": "Heti",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000601,
+    "constellationName": "Parrosa",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000602,
+    "constellationName": "Favo",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000603,
+    "constellationName": "Araz",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000604,
+    "constellationName": "Ahrnot",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000605,
+    "constellationName": "Pezarba",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000606,
+    "constellationName": "Naloran",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000607,
+    "constellationName": "Moghiz",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000052,
+    "constellationID": 20000608,
+    "constellationName": "Qermi",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000609,
+    "constellationName": "QJ2-0M",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000610,
+    "constellationName": "HNZF-Z",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000611,
+    "constellationName": "SI1-CF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000612,
+    "constellationName": "G3-MU3",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000613,
+    "constellationName": "BB-48X",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000614,
+    "constellationName": "I-WRVM",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000615,
+    "constellationName": "XHL-TZ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000616,
+    "constellationName": "DA0V-R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000617,
+    "constellationName": "5ZAB-N",
+    "factionID": null
+  },
+  {
+    "regionID": 10000053,
+    "constellationID": 20000618,
+    "constellationName": "N4TD-6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000619,
+    "constellationName": "Anama",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000620,
+    "constellationName": "Afinoo",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000621,
+    "constellationName": "Mareerieh",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000622,
+    "constellationName": "Mayonhen",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000623,
+    "constellationName": "Ombil",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000624,
+    "constellationName": "Tid",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000625,
+    "constellationName": "Helab",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000626,
+    "constellationName": "Leseasesh",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000627,
+    "constellationName": "Maal",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000628,
+    "constellationName": "Fabai",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000054,
+    "constellationID": 20000629,
+    "constellationName": "Selonat",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000630,
+    "constellationName": "JE7-F2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000631,
+    "constellationName": "8-IL7S",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000632,
+    "constellationName": "304-QS",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000633,
+    "constellationName": "0C-PZ4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000634,
+    "constellationName": "GP-GIU",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000635,
+    "constellationName": "E-312G",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000636,
+    "constellationName": "BZ-10K",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000637,
+    "constellationName": "C-ULS4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000638,
+    "constellationName": "Q5KW-Z",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000639,
+    "constellationName": "BI-NFW",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000640,
+    "constellationName": "XPBM-F",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000641,
+    "constellationName": "KWCZ-A",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000642,
+    "constellationName": "LIB-F9",
+    "factionID": null
+  },
+  {
+    "regionID": 10000055,
+    "constellationID": 20000643,
+    "constellationName": "T-RQ7S",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000644,
+    "constellationName": "1ANT-J",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000645,
+    "constellationName": "AV-SCL",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000646,
+    "constellationName": "I-3ODK",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000647,
+    "constellationName": "C45-9Y",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000648,
+    "constellationName": "L-H07K",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000649,
+    "constellationName": "JQA8-6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000650,
+    "constellationName": "3-U491",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000651,
+    "constellationName": "OFQ-HG",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000652,
+    "constellationName": "YZKE-Q",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000653,
+    "constellationName": "RHG-4O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000654,
+    "constellationName": "42-WDG",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "constellationID": 20000655,
+    "constellationName": "3-PC31",
+    "factionID": null
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000656,
+    "constellationName": "Crown",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000657,
+    "constellationName": "Heart",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000658,
+    "constellationName": "Belt",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000659,
+    "constellationName": "Wield",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000660,
+    "constellationName": "Sword",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000661,
+    "constellationName": "Regalia",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000662,
+    "constellationName": "Scepter",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000663,
+    "constellationName": "Velvet",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000057,
+    "constellationID": 20000664,
+    "constellationName": "Sole",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000665,
+    "constellationName": "Pegasus",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000666,
+    "constellationName": "Wyvern",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000667,
+    "constellationName": "Manticore",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000668,
+    "constellationName": "Sphinx",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000669,
+    "constellationName": "Centaur",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000670,
+    "constellationName": "Unicorn",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000671,
+    "constellationName": "Satyr",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000672,
+    "constellationName": "Kraken",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000673,
+    "constellationName": "Chimera",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000674,
+    "constellationName": "Phoenix",
+    "factionID": 500020
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000675,
+    "constellationName": "Taurus",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000676,
+    "constellationName": "Griffin",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000677,
+    "constellationName": "Hydra",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000678,
+    "constellationName": "Minotaur",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000679,
+    "constellationName": "Skaven",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000680,
+    "constellationName": "Mermaid",
+    "factionID": null
+  },
+  {
+    "regionID": 10000058,
+    "constellationID": 20000681,
+    "constellationName": "Basilisk",
+    "factionID": null
+  },
+  {
+    "regionID": 10000059,
+    "constellationID": 20000682,
+    "constellationName": "17K-QM",
+    "factionID": null
+  },
+  {
+    "regionID": 10000059,
+    "constellationID": 20000683,
+    "constellationName": "TCC-ZV",
+    "factionID": null
+  },
+  {
+    "regionID": 10000059,
+    "constellationID": 20000684,
+    "constellationName": "I-CCEI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000059,
+    "constellationID": 20000685,
+    "constellationName": "IZ-FBT",
+    "factionID": null
+  },
+  {
+    "regionID": 10000059,
+    "constellationID": 20000686,
+    "constellationName": "GEP-XF",
+    "factionID": null
+  },
+  {
+    "regionID": 10000059,
+    "constellationID": 20000687,
+    "constellationName": "D9DM-O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000688,
+    "constellationName": "XPJ1-6",
+    "factionID": 500012
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000689,
+    "constellationName": "B4H-9W",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000690,
+    "constellationName": "6-UCYU",
+    "factionID": 500012
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000691,
+    "constellationName": "O5K-Y6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000692,
+    "constellationName": "SPNZ-Z",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000693,
+    "constellationName": "YX-LYK",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000694,
+    "constellationName": "D5-SOW",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000695,
+    "constellationName": "W-4U1E",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000696,
+    "constellationName": "O-EIMK",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000697,
+    "constellationName": "SG-CTQ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000698,
+    "constellationName": "NJU-QV",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000699,
+    "constellationName": "LSC-4P",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000700,
+    "constellationName": "1-A81R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000701,
+    "constellationName": "F-I56R",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "constellationID": 20000702,
+    "constellationName": "OK-FEM",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000703,
+    "constellationName": "QP6B-I",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000704,
+    "constellationName": "AU-S0B",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000705,
+    "constellationName": "CL-QB2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000706,
+    "constellationName": "E-IFSA",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000707,
+    "constellationName": "ZQ7-QS",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000708,
+    "constellationName": "G3IP-E",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000709,
+    "constellationName": "50-5UD",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000710,
+    "constellationName": "F5-O9O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000711,
+    "constellationName": "EIX-HK",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000712,
+    "constellationName": "BZZ-1U",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000713,
+    "constellationName": "6I-3VX",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "constellationID": 20000714,
+    "constellationName": "W-3E44",
+    "factionID": null
+  },
+  {
+    "regionID": 10000062,
+    "constellationID": 20000715,
+    "constellationName": "O5QG-M",
+    "factionID": null
+  },
+  {
+    "regionID": 10000062,
+    "constellationID": 20000716,
+    "constellationName": "Y-LRWI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000062,
+    "constellationID": 20000717,
+    "constellationName": "5Z0Y-S",
+    "factionID": null
+  },
+  {
+    "regionID": 10000062,
+    "constellationID": 20000718,
+    "constellationName": "8MJO-4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000062,
+    "constellationID": 20000719,
+    "constellationName": "U7-GIV",
+    "factionID": null
+  },
+  {
+    "regionID": 10000062,
+    "constellationID": 20000720,
+    "constellationName": "RL36-K",
+    "factionID": null
+  },
+  {
+    "regionID": 10000063,
+    "constellationID": 20000721,
+    "constellationName": "XOV7-5",
+    "factionID": null
+  },
+  {
+    "regionID": 10000063,
+    "constellationID": 20000722,
+    "constellationName": "N-39FI",
+    "factionID": null
+  },
+  {
+    "regionID": 10000063,
+    "constellationID": 20000723,
+    "constellationName": "J8-G8K",
+    "factionID": null
+  },
+  {
+    "regionID": 10000063,
+    "constellationID": 20000724,
+    "constellationName": "NOK-FZ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000063,
+    "constellationID": 20000725,
+    "constellationName": "6KFH-X",
+    "factionID": null
+  },
+  {
+    "regionID": 10000063,
+    "constellationID": 20000726,
+    "constellationName": "OY3-DM",
+    "factionID": null
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000727,
+    "constellationName": "Crux",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000728,
+    "constellationName": "Patrie",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000729,
+    "constellationName": "Jeon",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000730,
+    "constellationName": "Balrille",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000731,
+    "constellationName": "Vieres",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000732,
+    "constellationName": "Peccanouette",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000733,
+    "constellationName": "Arand",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000734,
+    "constellationName": "Thoulde",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000064,
+    "constellationID": 20000735,
+    "constellationName": "Eustron",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000736,
+    "constellationName": "Jatari",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000737,
+    "constellationName": "Gebem",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000738,
+    "constellationName": "Nimedaz",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000739,
+    "constellationName": "Panoumid",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000740,
+    "constellationName": "Finena",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000741,
+    "constellationName": "Ravin",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000742,
+    "constellationName": "Orus",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000743,
+    "constellationName": "Comadu",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000065,
+    "constellationID": 20000744,
+    "constellationName": "Tendrara",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000745,
+    "constellationName": "NT1-5Q",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000746,
+    "constellationName": "O5PO-O",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000747,
+    "constellationName": "B-MQ0Y",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000748,
+    "constellationName": "9BGY-6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000749,
+    "constellationName": "X7-FTR",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000750,
+    "constellationName": "4LEZ-6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000751,
+    "constellationName": "VT-LHB",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000752,
+    "constellationName": "BXT7-V",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000753,
+    "constellationName": "L7-RDZ",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000754,
+    "constellationName": "TY0-Q2",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000755,
+    "constellationName": "WXB-RY",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000756,
+    "constellationName": "Q0-4FU",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000757,
+    "constellationName": "LWMW-6",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000758,
+    "constellationName": "S0X-O4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000066,
+    "constellationID": 20000759,
+    "constellationName": "TPB-KG",
+    "factionID": null
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000760,
+    "constellationName": "Nazdirer",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000761,
+    "constellationName": "Sanctum",
+    "factionID": 500006
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000762,
+    "constellationName": "Ashela",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000763,
+    "constellationName": "Ekrin",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000764,
+    "constellationName": "Mih",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000765,
+    "constellationName": "Ubar",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000766,
+    "constellationName": "Meli",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000767,
+    "constellationName": "Reya",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000768,
+    "constellationName": "Charak",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000769,
+    "constellationName": "Makh",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000770,
+    "constellationName": "Monalaz",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000771,
+    "constellationName": "Aven",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000772,
+    "constellationName": "Kihkounad",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000773,
+    "constellationName": "EVE",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000067,
+    "constellationID": 20000774,
+    "constellationName": "Fabas",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000068,
+    "constellationID": 20000775,
+    "constellationName": "Woenckee",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000068,
+    "constellationID": 20000776,
+    "constellationName": "Anwyns",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000068,
+    "constellationID": 20000777,
+    "constellationName": "Kiartanne",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000068,
+    "constellationID": 20000778,
+    "constellationName": "Obray",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000068,
+    "constellationID": 20000779,
+    "constellationName": "Ancbeu",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000068,
+    "constellationID": 20000780,
+    "constellationName": "Aideron",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000069,
+    "constellationID": 20000781,
+    "constellationName": "Urpiken",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000069,
+    "constellationID": 20000782,
+    "constellationName": "Okakuola",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000069,
+    "constellationID": 20000783,
+    "constellationName": "Inolari",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000069,
+    "constellationID": 20000784,
+    "constellationName": "Aokinen",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000069,
+    "constellationID": 20000785,
+    "constellationName": "Ishaga",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000069,
+    "constellationID": 20000786,
+    "constellationName": "Kurala",
+    "factionID": 500001
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000001,
+    "constellationName": "A-C00001",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000002,
+    "constellationName": "A-C00002",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000003,
+    "constellationName": "A-C00003",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000004,
+    "constellationName": "A-C00004",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000005,
+    "constellationName": "A-C00005",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000006,
+    "constellationName": "A-C00006",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000007,
+    "constellationName": "A-C00007",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000008,
+    "constellationName": "A-C00008",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000009,
+    "constellationName": "A-C00009",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000010,
+    "constellationName": "A-C00010",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000011,
+    "constellationName": "A-C00011",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000012,
+    "constellationName": "A-C00012",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000013,
+    "constellationName": "A-C00013",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "constellationID": 21000014,
+    "constellationName": "A-C00014",
+    "factionID": null
+  },
+  {
+    "regionID": 11000003,
+    "constellationID": 21000015,
+    "constellationName": "A-C00015",
+    "factionID": null
+  },
+  {
+    "regionID": 11000003,
+    "constellationID": 21000016,
+    "constellationName": "A-C00016",
+    "factionID": null
+  },
+  {
+    "regionID": 11000003,
+    "constellationID": 21000017,
+    "constellationName": "A-C00017",
+    "factionID": null
+  },
+  {
+    "regionID": 11000003,
+    "constellationID": 21000018,
+    "constellationName": "A-C00018",
+    "factionID": null
+  },
+  {
+    "regionID": 11000003,
+    "constellationID": 21000019,
+    "constellationName": "A-C00019",
+    "factionID": null
+  },
+  {
+    "regionID": 11000003,
+    "constellationID": 21000020,
+    "constellationName": "A-C00020",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000021,
+    "constellationName": "B-C00021",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000022,
+    "constellationName": "B-C00022",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000023,
+    "constellationName": "B-C00023",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000024,
+    "constellationName": "B-C00024",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000025,
+    "constellationName": "B-C00025",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000026,
+    "constellationName": "B-C00026",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000027,
+    "constellationName": "B-C00027",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000028,
+    "constellationName": "B-C00028",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000029,
+    "constellationName": "B-C00029",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000030,
+    "constellationName": "B-C00030",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000031,
+    "constellationName": "B-C00031",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000032,
+    "constellationName": "B-C00032",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000033,
+    "constellationName": "B-C00033",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000034,
+    "constellationName": "B-C00034",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000035,
+    "constellationName": "B-C00035",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000036,
+    "constellationName": "B-C00036",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000037,
+    "constellationName": "B-C00037",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000038,
+    "constellationName": "B-C00038",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000039,
+    "constellationName": "B-C00039",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "constellationID": 21000040,
+    "constellationName": "B-C00040",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000041,
+    "constellationName": "B-C00041",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000042,
+    "constellationName": "B-C00042",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000043,
+    "constellationName": "B-C00043",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000044,
+    "constellationName": "B-C00044",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000045,
+    "constellationName": "B-C00045",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000046,
+    "constellationName": "B-C00046",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000047,
+    "constellationName": "B-C00047",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000048,
+    "constellationName": "B-C00048",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000049,
+    "constellationName": "B-C00049",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000050,
+    "constellationName": "B-C00050",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000051,
+    "constellationName": "B-C00051",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000052,
+    "constellationName": "B-C00052",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000053,
+    "constellationName": "B-C00053",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "constellationID": 21000054,
+    "constellationName": "B-C00054",
+    "factionID": null
+  },
+  {
+    "regionID": 11000007,
+    "constellationID": 21000055,
+    "constellationName": "B-C00055",
+    "factionID": null
+  },
+  {
+    "regionID": 11000007,
+    "constellationID": 21000056,
+    "constellationName": "B-C00056",
+    "factionID": null
+  },
+  {
+    "regionID": 11000007,
+    "constellationID": 21000057,
+    "constellationName": "B-C00057",
+    "factionID": null
+  },
+  {
+    "regionID": 11000007,
+    "constellationID": 21000058,
+    "constellationName": "B-C00058",
+    "factionID": null
+  },
+  {
+    "regionID": 11000007,
+    "constellationID": 21000059,
+    "constellationName": "B-C00059",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000060,
+    "constellationName": "B-C00060",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000061,
+    "constellationName": "B-C00061",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000062,
+    "constellationName": "B-C00062",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000063,
+    "constellationName": "B-C00063",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000064,
+    "constellationName": "B-C00064",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000065,
+    "constellationName": "B-C00065",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000066,
+    "constellationName": "B-C00066",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000067,
+    "constellationName": "B-C00067",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000068,
+    "constellationName": "B-C00068",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000069,
+    "constellationName": "B-C00069",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000070,
+    "constellationName": "B-C00070",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000071,
+    "constellationName": "B-C00071",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000072,
+    "constellationName": "B-C00072",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000073,
+    "constellationName": "B-C00073",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000074,
+    "constellationName": "B-C00074",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "constellationID": 21000075,
+    "constellationName": "B-C00075",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000076,
+    "constellationName": "C-C00076",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000077,
+    "constellationName": "C-C00077",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000078,
+    "constellationName": "C-C00078",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000079,
+    "constellationName": "C-C00079",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000080,
+    "constellationName": "C-C00080",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000081,
+    "constellationName": "C-C00081",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000082,
+    "constellationName": "C-C00082",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000083,
+    "constellationName": "C-C00083",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000084,
+    "constellationName": "C-C00084",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "constellationID": 21000085,
+    "constellationName": "C-C00085",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "constellationID": 21000086,
+    "constellationName": "C-C00086",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "constellationID": 21000087,
+    "constellationName": "C-C00087",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "constellationID": 21000088,
+    "constellationName": "C-C00088",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "constellationID": 21000089,
+    "constellationName": "C-C00089",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "constellationID": 21000090,
+    "constellationName": "C-C00090",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "constellationID": 21000091,
+    "constellationName": "C-C00091",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "constellationID": 21000092,
+    "constellationName": "C-C00092",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000093,
+    "constellationName": "C-C00093",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000094,
+    "constellationName": "C-C00094",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000095,
+    "constellationName": "C-C00095",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000096,
+    "constellationName": "C-C00096",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000097,
+    "constellationName": "C-C00097",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000098,
+    "constellationName": "C-C00098",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000099,
+    "constellationName": "C-C00099",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000100,
+    "constellationName": "C-C00100",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000101,
+    "constellationName": "C-C00101",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000102,
+    "constellationName": "C-C00102",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000103,
+    "constellationName": "C-C00103",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000104,
+    "constellationName": "C-C00104",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "constellationID": 21000105,
+    "constellationName": "C-C00105",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000106,
+    "constellationName": "C-C00106",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000107,
+    "constellationName": "C-C00107",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000108,
+    "constellationName": "C-C00108",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000109,
+    "constellationName": "C-C00109",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000110,
+    "constellationName": "C-C00110",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000111,
+    "constellationName": "C-C00111",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000112,
+    "constellationName": "C-C00112",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000113,
+    "constellationName": "C-C00113",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000114,
+    "constellationName": "C-C00114",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000115,
+    "constellationName": "C-C00115",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000116,
+    "constellationName": "C-C00116",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000117,
+    "constellationName": "C-C00117",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000118,
+    "constellationName": "C-C00118",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000119,
+    "constellationName": "C-C00119",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000120,
+    "constellationName": "C-C00120",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "constellationID": 21000121,
+    "constellationName": "C-C00121",
+    "factionID": null
+  },
+  {
+    "regionID": 11000013,
+    "constellationID": 21000122,
+    "constellationName": "C-C00122",
+    "factionID": null
+  },
+  {
+    "regionID": 11000013,
+    "constellationID": 21000123,
+    "constellationName": "C-C00123",
+    "factionID": null
+  },
+  {
+    "regionID": 11000013,
+    "constellationID": 21000124,
+    "constellationName": "C-C00124",
+    "factionID": null
+  },
+  {
+    "regionID": 11000013,
+    "constellationID": 21000125,
+    "constellationName": "C-C00125",
+    "factionID": null
+  },
+  {
+    "regionID": 11000013,
+    "constellationID": 21000126,
+    "constellationName": "C-C00126",
+    "factionID": null
+  },
+  {
+    "regionID": 11000013,
+    "constellationID": 21000127,
+    "constellationName": "C-C00127",
+    "factionID": null
+  },
+  {
+    "regionID": 11000013,
+    "constellationID": 21000128,
+    "constellationName": "C-C00128",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000129,
+    "constellationName": "C-C00129",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000130,
+    "constellationName": "C-C00130",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000131,
+    "constellationName": "C-C00131",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000132,
+    "constellationName": "C-C00132",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000133,
+    "constellationName": "C-C00133",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000134,
+    "constellationName": "C-C00134",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000135,
+    "constellationName": "C-C00135",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000136,
+    "constellationName": "C-C00136",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000137,
+    "constellationName": "C-C00137",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000138,
+    "constellationName": "C-C00138",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000139,
+    "constellationName": "C-C00139",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000140,
+    "constellationName": "C-C00140",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000141,
+    "constellationName": "C-C00141",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000142,
+    "constellationName": "C-C00142",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "constellationID": 21000143,
+    "constellationName": "C-C00143",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000144,
+    "constellationName": "C-C00144",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000145,
+    "constellationName": "C-C00145",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000146,
+    "constellationName": "C-C00146",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000147,
+    "constellationName": "C-C00147",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000148,
+    "constellationName": "C-C00148",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000149,
+    "constellationName": "C-C00149",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000150,
+    "constellationName": "C-C00150",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000151,
+    "constellationName": "C-C00151",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "constellationID": 21000152,
+    "constellationName": "C-C00152",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000153,
+    "constellationName": "D-C00153",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000154,
+    "constellationName": "D-C00154",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000155,
+    "constellationName": "D-C00155",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000156,
+    "constellationName": "D-C00156",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000157,
+    "constellationName": "D-C00157",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000158,
+    "constellationName": "D-C00158",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000159,
+    "constellationName": "D-C00159",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000160,
+    "constellationName": "D-C00160",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000161,
+    "constellationName": "D-C00161",
+    "factionID": null
+  },
+  {
+    "regionID": 11000017,
+    "constellationID": 21000162,
+    "constellationName": "D-C00162",
+    "factionID": null
+  },
+  {
+    "regionID": 11000017,
+    "constellationID": 21000163,
+    "constellationName": "D-C00163",
+    "factionID": null
+  },
+  {
+    "regionID": 11000017,
+    "constellationID": 21000164,
+    "constellationName": "D-C00164",
+    "factionID": null
+  },
+  {
+    "regionID": 11000017,
+    "constellationID": 21000165,
+    "constellationName": "D-C00165",
+    "factionID": null
+  },
+  {
+    "regionID": 11000018,
+    "constellationID": 21000166,
+    "constellationName": "D-C00166",
+    "factionID": null
+  },
+  {
+    "regionID": 11000018,
+    "constellationID": 21000167,
+    "constellationName": "D-C00167",
+    "factionID": null
+  },
+  {
+    "regionID": 11000018,
+    "constellationID": 21000168,
+    "constellationName": "D-C00168",
+    "factionID": null
+  },
+  {
+    "regionID": 11000018,
+    "constellationID": 21000169,
+    "constellationName": "D-C00169",
+    "factionID": null
+  },
+  {
+    "regionID": 11000018,
+    "constellationID": 21000170,
+    "constellationName": "D-C00170",
+    "factionID": null
+  },
+  {
+    "regionID": 11000018,
+    "constellationID": 21000171,
+    "constellationName": "D-C00171",
+    "factionID": null
+  },
+  {
+    "regionID": 11000018,
+    "constellationID": 21000172,
+    "constellationName": "D-C00172",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000173,
+    "constellationName": "D-C00173",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000174,
+    "constellationName": "D-C00174",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000175,
+    "constellationName": "D-C00175",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000176,
+    "constellationName": "D-C00176",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000177,
+    "constellationName": "D-C00177",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000178,
+    "constellationName": "D-C00178",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000179,
+    "constellationName": "D-C00179",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000180,
+    "constellationName": "D-C00180",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000181,
+    "constellationName": "D-C00181",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000182,
+    "constellationName": "D-C00182",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000183,
+    "constellationName": "D-C00183",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000184,
+    "constellationName": "D-C00184",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000185,
+    "constellationName": "D-C00185",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "constellationID": 21000186,
+    "constellationName": "D-C00186",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "constellationID": 21000187,
+    "constellationName": "D-C00187",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "constellationID": 21000188,
+    "constellationName": "D-C00188",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "constellationID": 21000189,
+    "constellationName": "D-C00189",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "constellationID": 21000190,
+    "constellationName": "D-C00190",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "constellationID": 21000191,
+    "constellationName": "D-C00191",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "constellationID": 21000192,
+    "constellationName": "D-C00192",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "constellationID": 21000193,
+    "constellationName": "D-C00193",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "constellationID": 21000194,
+    "constellationName": "D-C00194",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000195,
+    "constellationName": "D-C00195",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000196,
+    "constellationName": "D-C00196",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000197,
+    "constellationName": "D-C00197",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000198,
+    "constellationName": "D-C00198",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000199,
+    "constellationName": "D-C00199",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000200,
+    "constellationName": "D-C00200",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000201,
+    "constellationName": "D-C00201",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000202,
+    "constellationName": "D-C00202",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000203,
+    "constellationName": "D-C00203",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000204,
+    "constellationName": "D-C00204",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000205,
+    "constellationName": "D-C00205",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000206,
+    "constellationName": "D-C00206",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000207,
+    "constellationName": "D-C00207",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000208,
+    "constellationName": "D-C00208",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000209,
+    "constellationName": "D-C00209",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000210,
+    "constellationName": "D-C00210",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000211,
+    "constellationName": "D-C00211",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "constellationID": 21000212,
+    "constellationName": "D-C00212",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000213,
+    "constellationName": "D-C00213",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000214,
+    "constellationName": "D-C00214",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000215,
+    "constellationName": "D-C00215",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000216,
+    "constellationName": "D-C00216",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000217,
+    "constellationName": "D-C00217",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000218,
+    "constellationName": "D-C00218",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000219,
+    "constellationName": "D-C00219",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000220,
+    "constellationName": "D-C00220",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000221,
+    "constellationName": "D-C00221",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000222,
+    "constellationName": "D-C00222",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000223,
+    "constellationName": "D-C00223",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000224,
+    "constellationName": "D-C00224",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000225,
+    "constellationName": "D-C00225",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "constellationID": 21000226,
+    "constellationName": "D-C00226",
+    "factionID": null
+  },
+  {
+    "regionID": 11000023,
+    "constellationID": 21000227,
+    "constellationName": "D-C00227",
+    "factionID": null
+  },
+  {
+    "regionID": 11000023,
+    "constellationID": 21000228,
+    "constellationName": "D-C00228",
+    "factionID": null
+  },
+  {
+    "regionID": 11000023,
+    "constellationID": 21000229,
+    "constellationName": "D-C00229",
+    "factionID": null
+  },
+  {
+    "regionID": 11000023,
+    "constellationID": 21000230,
+    "constellationName": "D-C00230",
+    "factionID": null
+  },
+  {
+    "regionID": 11000023,
+    "constellationID": 21000231,
+    "constellationName": "D-C00231",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000232,
+    "constellationName": "E-C00232",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000233,
+    "constellationName": "E-C00233",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000234,
+    "constellationName": "E-C00234",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000235,
+    "constellationName": "E-C00235",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000236,
+    "constellationName": "E-C00236",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000237,
+    "constellationName": "E-C00237",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000238,
+    "constellationName": "E-C00238",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000239,
+    "constellationName": "E-C00239",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000240,
+    "constellationName": "E-C00240",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000241,
+    "constellationName": "E-C00241",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000242,
+    "constellationName": "E-C00242",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000243,
+    "constellationName": "E-C00243",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000244,
+    "constellationName": "E-C00244",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000245,
+    "constellationName": "E-C00245",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000246,
+    "constellationName": "E-C00246",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000247,
+    "constellationName": "E-C00247",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000248,
+    "constellationName": "E-C00248",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000249,
+    "constellationName": "E-C00249",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000250,
+    "constellationName": "E-C00250",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000251,
+    "constellationName": "E-C00251",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000252,
+    "constellationName": "E-C00252",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000253,
+    "constellationName": "E-C00253",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000254,
+    "constellationName": "E-C00254",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "constellationID": 21000255,
+    "constellationName": "E-C00255",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000256,
+    "constellationName": "E-C00256",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000257,
+    "constellationName": "E-C00257",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000258,
+    "constellationName": "E-C00258",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000259,
+    "constellationName": "E-C00259",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000260,
+    "constellationName": "E-C00260",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000261,
+    "constellationName": "E-C00261",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000262,
+    "constellationName": "E-C00262",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000263,
+    "constellationName": "E-C00263",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "constellationID": 21000264,
+    "constellationName": "E-C00264",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000265,
+    "constellationName": "E-C00265",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000266,
+    "constellationName": "E-C00266",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000267,
+    "constellationName": "E-C00267",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000268,
+    "constellationName": "E-C00268",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000269,
+    "constellationName": "E-C00269",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000270,
+    "constellationName": "E-C00270",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000271,
+    "constellationName": "E-C00271",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000272,
+    "constellationName": "E-C00272",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "constellationID": 21000273,
+    "constellationName": "E-C00273",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000274,
+    "constellationName": "E-C00274",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000275,
+    "constellationName": "E-C00275",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000276,
+    "constellationName": "E-C00276",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000277,
+    "constellationName": "E-C00277",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000278,
+    "constellationName": "E-C00278",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000279,
+    "constellationName": "E-C00279",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000280,
+    "constellationName": "E-C00280",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000281,
+    "constellationName": "E-C00281",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000282,
+    "constellationName": "E-C00282",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000283,
+    "constellationName": "E-C00283",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000284,
+    "constellationName": "E-C00284",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "constellationID": 21000285,
+    "constellationName": "E-C00285",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000286,
+    "constellationName": "E-C00286",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000287,
+    "constellationName": "E-C00287",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000288,
+    "constellationName": "E-C00288",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000289,
+    "constellationName": "E-C00289",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000290,
+    "constellationName": "E-C00290",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000291,
+    "constellationName": "E-C00291",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000292,
+    "constellationName": "E-C00292",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000293,
+    "constellationName": "E-C00293",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000294,
+    "constellationName": "E-C00294",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000295,
+    "constellationName": "E-C00295",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "constellationID": 21000296,
+    "constellationName": "E-C00296",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000297,
+    "constellationName": "F-C00297",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000298,
+    "constellationName": "F-C00298",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000299,
+    "constellationName": "F-C00299",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000300,
+    "constellationName": "F-C00300",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000301,
+    "constellationName": "F-C00301",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000302,
+    "constellationName": "F-C00302",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000303,
+    "constellationName": "F-C00303",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000304,
+    "constellationName": "F-C00304",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000305,
+    "constellationName": "F-C00305",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000306,
+    "constellationName": "F-C00306",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000307,
+    "constellationName": "F-C00307",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000308,
+    "constellationName": "F-C00308",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000309,
+    "constellationName": "F-C00309",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000310,
+    "constellationName": "F-C00310",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000311,
+    "constellationName": "A-C00311",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000312,
+    "constellationName": "A-C00312",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000313,
+    "constellationName": "A-C00313",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000314,
+    "constellationName": "A-C00314",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000315,
+    "constellationName": "A-C00315",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000316,
+    "constellationName": "A-C00316",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000317,
+    "constellationName": "A-C00317",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000318,
+    "constellationName": "A-C00318",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000319,
+    "constellationName": "A-C00319",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000320,
+    "constellationName": "A-C00320",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000321,
+    "constellationName": "A-C00321",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000322,
+    "constellationName": "A-C00322",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000323,
+    "constellationName": "A-C00323",
+    "factionID": null
+  },
+  {
+    "regionID": 11000031,
+    "constellationID": 21000324,
+    "constellationName": "G-C00324",
+    "factionID": null
+  },
+  {
+    "regionID": 11000001,
+    "constellationID": 21000325,
+    "constellationName": "A-C00325",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "constellationID": 21000326,
+    "constellationName": "B-C00326",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "constellationID": 21000327,
+    "constellationName": "C-C00327",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "constellationID": 21000328,
+    "constellationName": "D-C00328",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "constellationID": 21000329,
+    "constellationName": "E-C00329",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "constellationID": 21000330,
+    "constellationName": "F-C00330",
+    "factionID": null
+  },
+  {
+    "regionID": 11000032,
+    "constellationID": 21000331,
+    "constellationName": "H-C00331",
+    "factionID": null
+  },
+  {
+    "regionID": 11000032,
+    "constellationID": 21000332,
+    "constellationName": "H-C00332",
+    "factionID": null
+  },
+  {
+    "regionID": 11000032,
+    "constellationID": 21000333,
+    "constellationName": "H-C00333",
+    "factionID": null
+  },
+  {
+    "regionID": 11000033,
+    "constellationID": 21000334,
+    "constellationName": "K-C00334",
+    "factionID": null
+  },
+  {
+    "regionID": 12000001,
+    "constellationID": 22000001,
+    "constellationName": "ADC01",
+    "factionID": null
+  },
+  {
+    "regionID": 12000001,
+    "constellationID": 22000002,
+    "constellationName": "ADC02",
+    "factionID": null
+  },
+  {
+    "regionID": 12000001,
+    "constellationID": 22000003,
+    "constellationName": "ADC03",
+    "factionID": null
+  },
+  {
+    "regionID": 12000001,
+    "constellationID": 22000004,
+    "constellationName": "ADC04",
+    "factionID": null
+  },
+  {
+    "regionID": 12000001,
+    "constellationID": 22000005,
+    "constellationName": "ADC05",
+    "factionID": null
+  },
+  {
+    "regionID": 12000002,
+    "constellationID": 22000006,
+    "constellationName": "ADC06",
+    "factionID": null
+  },
+  {
+    "regionID": 12000002,
+    "constellationID": 22000007,
+    "constellationName": "ADC07",
+    "factionID": null
+  },
+  {
+    "regionID": 12000002,
+    "constellationID": 22000008,
+    "constellationName": "ADC08",
+    "factionID": null
+  },
+  {
+    "regionID": 12000002,
+    "constellationID": 22000009,
+    "constellationName": "ADC09",
+    "factionID": null
+  },
+  {
+    "regionID": 12000002,
+    "constellationID": 22000010,
+    "constellationName": "ADC10",
+    "factionID": null
+  },
+  {
+    "regionID": 12000003,
+    "constellationID": 22000011,
+    "constellationName": "ADC11",
+    "factionID": null
+  },
+  {
+    "regionID": 12000003,
+    "constellationID": 22000012,
+    "constellationName": "ADC12",
+    "factionID": null
+  },
+  {
+    "regionID": 12000003,
+    "constellationID": 22000013,
+    "constellationName": "ADC13",
+    "factionID": null
+  },
+  {
+    "regionID": 12000003,
+    "constellationID": 22000014,
+    "constellationName": "ADC14",
+    "factionID": null
+  },
+  {
+    "regionID": 12000003,
+    "constellationID": 22000015,
+    "constellationName": "ADC15",
+    "factionID": null
+  },
+  {
+    "regionID": 12000004,
+    "constellationID": 22000016,
+    "constellationName": "ADC16",
+    "factionID": null
+  },
+  {
+    "regionID": 12000004,
+    "constellationID": 22000017,
+    "constellationName": "ADC17",
+    "factionID": null
+  },
+  {
+    "regionID": 12000004,
+    "constellationID": 22000018,
+    "constellationName": "ADC18",
+    "factionID": null
+  },
+  {
+    "regionID": 12000004,
+    "constellationID": 22000019,
+    "constellationName": "ADC19",
+    "factionID": null
+  },
+  {
+    "regionID": 12000004,
+    "constellationID": 22000020,
+    "constellationName": "ADC20",
+    "factionID": null
+  },
+  {
+    "regionID": 12000005,
+    "constellationID": 22000021,
+    "constellationName": "ADC21",
+    "factionID": null
+  },
+  {
+    "regionID": 12000005,
+    "constellationID": 22000022,
+    "constellationName": "ADC22",
+    "factionID": null
+  },
+  {
+    "regionID": 12000005,
+    "constellationID": 22000023,
+    "constellationName": "ADC23",
+    "factionID": null
+  },
+  {
+    "regionID": 12000005,
+    "constellationID": 22000024,
+    "constellationName": "ADC24",
+    "factionID": null
+  },
+  {
+    "regionID": 12000005,
+    "constellationID": 22000025,
+    "constellationName": "ADC25",
+    "factionID": null
+  },
+  {
+    "regionID": 13000001,
+    "constellationID": 23000001,
+    "constellationName": "PC-001",
+    "factionID": null
+  }
+]

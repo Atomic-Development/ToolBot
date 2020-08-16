@@ -4,8 +4,10 @@ const client = new Discord.Client()
 client.commands = new Discord.Collection()
 global.cooldowns = new Discord.Collection()
 // Configuration.
-const config = require('./config.json')
-client.config = config
+require('dotenv').config()
+const env = require('env-var')
+const token = env.get('TOKEN').asString()
+
 // Third party modules.
 const fs = require('fs')
 
@@ -26,4 +28,4 @@ for (const file of eventFiles) {
   delete require.cache[require.resolve(`./events/${file}`)]
 }
 
-client.login(config.token)
+client.login(token)

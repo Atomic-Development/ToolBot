@@ -10,8 +10,8 @@ const { fuzzworkLookup } = require('../marketproviders/fuzzwork')
 const _ = require('underscore')
 module.exports = {
   name: 'price',
-  description: 'Provides price information for an item in a given trade hub or location. Note that acceptable values for the location are: **Jita**, **Universe**, **Dodixie**, **Amarr**, **Hek** and **Rens**.',
-  usage: '[location] [item]',
+  description: 'Provides price information for an item in a given trade hub or location. Acceptable values for source are **EP**, **Evepraisal**, **EM**, **EVE Marketer**, **FW** or **Fuzzwork**. Acceptable values for the location are: **Jita**, **Universe**, **Dodixie**, **Amarr**, **Hek** and **Rens**.',
+  usage: '[provider] [item] [location]',
   cooldown: 5,
   /**v
    * Provides price information for an item, possibly restricted to a region.
@@ -74,11 +74,10 @@ module.exports = {
           marketLookup = await evemarketerLookup(itemType)
           break
       }
-      console.log('Market Lookup:', marketLookup)
       if (_.contains(marketLookup, 'error')) {
         return message.channel.send(`**WHOOPS:** ${marketLookup.source} returned an error: \n> ${marketLookup.errorMsg}`)
       } else if (typeof marketLookup === 'undefined') {
-        return message.channel.send('**WHOOPS:** An unknown error occured. Please [contact Atomic Development on Discord](https://discord.gg/uwdsKW).')
+        return message.channel.send('**WHOOPS:** An unknown error occured. Please contact Atomic Development on Discord: https://discord.gg/uwdsKW.')
       } else {
         var systemInfoMessage = new Discord.MessageEmbed()
           .setColor('#3F704D')

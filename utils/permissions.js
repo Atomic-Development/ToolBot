@@ -2,18 +2,20 @@
  * Copyright (c) Max Tsero. All rights reserved.
  * Licensed under the MIT License.
  */
-const config = require('../config.json')
 const _ = require('underscore')
+const env = require('env-var')
+const administrators = env.get('ADMINISTRATORS').asJsonArray()
+const banned = env.get('BANNED').asJsonArray()
 /**
  * Checks if the specified user ID exists in the administrators config array.
  * @param {number} id - The user's Discord ID.
  * @return {boolean} - True or false depending on the input ID and config value.
  */
 function checkAdministrator (id) {
-  if (_.isEmpty(config.administrators)) {
+  if (_.isEmpty(administrators)) {
     return false
   } else {
-    if (_.includes(config.administrators, id)) {
+    if (_.includes(administrators, id)) {
       return true
     } else {
       return false
@@ -26,10 +28,10 @@ function checkAdministrator (id) {
  * @return {boolean} - True or false depending on the input ID and config value.
  */
 function checkBanned (id) {
-  if (_.isEmpty(config.banned)) {
+  if (_.isEmpty(banned)) {
     return false
   } else {
-    if (_.includes(config.banned, id)) {
+    if (_.includes(banned, id)) {
       return true
     } else {
       return false

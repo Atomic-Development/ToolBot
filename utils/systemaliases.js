@@ -2,10 +2,11 @@
  * Copyright (c) EVE University. All rights reserved.
  * Licensed under the MIT License.
  */
-const config = require('../config.json')
+const env = require('env-var')
+const systemAliases = env.get('SYSTEMALIASES').asJsonObject()
 function systemChecker (systemName) {
   var systemLower = systemName.toLowerCase()
-  var aliases = config.systemAliases
+  var aliases = systemAliases
   var aliasesResult = aliases[systemLower]
   if (typeof aliasesResult === 'undefined') {
     // console.log('No alias for:', systemLower)

@@ -3,10 +3,13 @@
  * Licensed under the MIT License.
  */
 const got = require('got')
-const { emURL, eveImages } = require('../config.json')
 const { priceFormat } = require('../utils/strings')
 const moment = require('moment')
 const _ = require('underscore')
+const env = require('env-var')
+const emURL = env.get('EMURL').asString()
+const eveImages = env.get('EVEIMAGES').asString()
+
 /**
  * Collates information from EVEMarketer's API into an object.
  * @param {number} itemType - The ID of the item/type to get information for.
@@ -25,11 +28,8 @@ async function evemarketerLookup (itemType) {
     }
     return marketSearchResults
   }
-  console.log('Result:', result)
   let buyPrices = result[0].buy
-  console.log('Buy:', buyPrices)
   let sellPrices = result[0].sell
-  console.log('Sell:', sellPrices)
   let imageURL = `${eveImages}/types/${itemTypeID}/icon`
   let link = `[EveMarketer](https://evemarketer.com/types/${itemTypeID})`
   let updatedFormatted = moment.utc().format('dddd, Do MMMM YYYY, H:mm:ss')

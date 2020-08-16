@@ -2,7 +2,9 @@
  * Copyright (c) Max Tsero. All rights reserved.
  * Licensed under the MIT License.
  */
-const config = require('../config.json')
+const Discord = require('discord.js')
+const env = require('env-var')
+const prefix = env.get('PREFIX').asString()
 module.exports = {
   name: 'help',
   description: 'List all commands or info about a specific command.',
@@ -18,7 +20,6 @@ module.exports = {
    */
   run (client, message, args) {
     const data = []
-    const prefix = config.prefix
     const { commands } = message.client
 
     if (!args.length) {
@@ -37,20 +38,18 @@ module.exports = {
     } else {
       const name = args[0].toLowerCase()
       const command = commands.get(name) || commands.find(command => command.aliases && command.aliases.includes(name))
-
       if (!command) {
         return message.reply('**WHOOPS** That\'s not a valid command!')
       }
-
-      data.push(`**Name:** ${command.name}`)
-
-      if (command.aliases) data.push(`**Aliases:** ${command.aliases.join(', ')}`)
-      if (command.description) data.push(`**Description:** ${command.description}`)
-      if (command.usage) data.push(`**Usage:** ${prefix}${command.name} ${command.usage}`)
-
-      data.push(`**Cooldown:** ${command.cooldown || 3} second(s)`)
-
-      message.channel.send(data, { split: true })
+      var helpMessage = new Discord.MessageEmbed()
+          .setColor('#a6be12')
+          .setTitle(`Help for the ${command.name} command`)
+          .setDescription(`${command.description}`)
+          .setThumbnail('https://wiki.eveuniversity.org/images/f/f5/Helpicon.png')
+          if (command.aliases) helpMessage.addField('Aliases', `${command.aliases.join(', ')}`, true)
+          if (command.usage) helpMessage.addField('Usage', `${prefix}${command.name} ${command.usage}`, true)
+          helpMessage.addField('Cooldown', `${command.cooldown || 3} second(s)`, true)
+      message.channel.send(helpMessage)
     }
   }
 }

@@ -3,7 +3,8 @@
  * Licensed under the MIT License.
  */
 const got = require('got')
-const { typeIDURL } = require('../config.json')
+const env = require('env-var')
+const typeIDURL = env.get('TYPEIDURL').asString()
 /**
  * Retrieves information on specified type name.
  * @param {string} typeName - The name of a type to search for.

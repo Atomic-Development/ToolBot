@@ -1,0 +1,532 @@
+[
+  {
+    "regionID": 10000001,
+    "regionName": "Derelik",
+    "factionID": 500007
+  },
+  {
+    "regionID": 10000002,
+    "regionName": "The Forge",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000003,
+    "regionName": "Vale of the Silent",
+    "factionID": null
+  },
+  {
+    "regionID": 10000004,
+    "regionName": "UUA-F4",
+    "factionID": null
+  },
+  {
+    "regionID": 10000005,
+    "regionName": "Detorid",
+    "factionID": null
+  },
+  {
+    "regionID": 10000006,
+    "regionName": "Wicked Creek",
+    "factionID": null
+  },
+  {
+    "regionID": 10000007,
+    "regionName": "Cache",
+    "factionID": null
+  },
+  {
+    "regionID": 10000008,
+    "regionName": "Scalding Pass",
+    "factionID": null
+  },
+  {
+    "regionID": 10000009,
+    "regionName": "Insmother",
+    "factionID": null
+  },
+  {
+    "regionID": 10000010,
+    "regionName": "Tribute",
+    "factionID": null
+  },
+  {
+    "regionID": 10000011,
+    "regionName": "Great Wildlands",
+    "factionID": 500015
+  },
+  {
+    "regionID": 10000012,
+    "regionName": "Curse",
+    "factionID": 500011
+  },
+  {
+    "regionID": 10000013,
+    "regionName": "Malpais",
+    "factionID": null
+  },
+  {
+    "regionID": 10000014,
+    "regionName": "Catch",
+    "factionID": null
+  },
+  {
+    "regionID": 10000015,
+    "regionName": "Venal",
+    "factionID": 500010
+  },
+  {
+    "regionID": 10000016,
+    "regionName": "Lonetrek",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000017,
+    "regionName": "J7HZ-F",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000018,
+    "regionName": "The Spire",
+    "factionID": null
+  },
+  {
+    "regionID": 10000019,
+    "regionName": "A821-A",
+    "factionID": 500005
+  },
+  {
+    "regionID": 10000020,
+    "regionName": "Tash-Murkon",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000021,
+    "regionName": "Outer Passage",
+    "factionID": null
+  },
+  {
+    "regionID": 10000022,
+    "regionName": "Stain",
+    "factionID": 500019
+  },
+  {
+    "regionID": 10000023,
+    "regionName": "Pure Blind",
+    "factionID": null
+  },
+  {
+    "regionID": 10000025,
+    "regionName": "Immensea",
+    "factionID": null
+  },
+  {
+    "regionID": 10000027,
+    "regionName": "Etherium Reach",
+    "factionID": null
+  },
+  {
+    "regionID": 10000028,
+    "regionName": "Molden Heath",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000029,
+    "regionName": "Geminate",
+    "factionID": null
+  },
+  {
+    "regionID": 10000030,
+    "regionName": "Heimatar",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000031,
+    "regionName": "Impass",
+    "factionID": null
+  },
+  {
+    "regionID": 10000032,
+    "regionName": "Sinq Laison",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000033,
+    "regionName": "The Citadel",
+    "factionID": 500001
+  },
+  {
+    "regionID": 10000034,
+    "regionName": "The Kalevala Expanse",
+    "factionID": null
+  },
+  {
+    "regionID": 10000035,
+    "regionName": "Deklein",
+    "factionID": null
+  },
+  {
+    "regionID": 10000036,
+    "regionName": "Devoid",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000037,
+    "regionName": "Everyshore",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000038,
+    "regionName": "The Bleak Lands",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000039,
+    "regionName": "Esoteria",
+    "factionID": null
+  },
+  {
+    "regionID": 10000040,
+    "regionName": "Oasa",
+    "factionID": null
+  },
+  {
+    "regionID": 10000041,
+    "regionName": "Syndicate",
+    "factionID": 500009
+  },
+  {
+    "regionID": 10000042,
+    "regionName": "Metropolis",
+    "factionID": 500002
+  },
+  {
+    "regionID": 10000043,
+    "regionName": "Domain",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000044,
+    "regionName": "Solitude",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000045,
+    "regionName": "Tenal",
+    "factionID": null
+  },
+  {
+    "regionID": 10000046,
+    "regionName": "Fade",
+    "factionID": null
+  },
+  {
+    "regionID": 10000047,
+    "regionName": "Providence",
+    "factionID": null
+  },
+  {
+    "regionID": 10000048,
+    "regionName": "Placid",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000049,
+    "regionName": "Khanid",
+    "factionID": 500008
+  },
+  {
+    "regionID": 10000050,
+    "regionName": "Querious",
+    "factionID": null
+  },
+  {
+    "regionID": 10000051,
+    "regionName": "Cloud Ring",
+    "factionID": null
+  },
+  {
+    "regionID": 10000052,
+    "regionName": "Kador",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000053,
+    "regionName": "Cobalt Edge",
+    "factionID": null
+  },
+  {
+    "regionID": 10000054,
+    "regionName": "Aridia",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000055,
+    "regionName": "Branch",
+    "factionID": null
+  },
+  {
+    "regionID": 10000056,
+    "regionName": "Feythabolis",
+    "factionID": null
+  },
+  {
+    "regionID": 10000057,
+    "regionName": "Outer Ring",
+    "factionID": 500014
+  },
+  {
+    "regionID": 10000058,
+    "regionName": "Fountain",
+    "factionID": null
+  },
+  {
+    "regionID": 10000059,
+    "regionName": "Paragon Soul",
+    "factionID": null
+  },
+  {
+    "regionID": 10000060,
+    "regionName": "Delve",
+    "factionID": null
+  },
+  {
+    "regionID": 10000061,
+    "regionName": "Tenerifis",
+    "factionID": null
+  },
+  {
+    "regionID": 10000062,
+    "regionName": "Omist",
+    "factionID": null
+  },
+  {
+    "regionID": 10000063,
+    "regionName": "Period Basis",
+    "factionID": null
+  },
+  {
+    "regionID": 10000064,
+    "regionName": "Essence",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000065,
+    "regionName": "Kor-Azor",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000066,
+    "regionName": "Perrigen Falls",
+    "factionID": null
+  },
+  {
+    "regionID": 10000067,
+    "regionName": "Genesis",
+    "factionID": 500003
+  },
+  {
+    "regionID": 10000068,
+    "regionName": "Verge Vendor",
+    "factionID": 500004
+  },
+  {
+    "regionID": 10000069,
+    "regionName": "Black Rise",
+    "factionID": 500001
+  },
+  {
+    "regionID": 11000001,
+    "regionName": "A-R00001",
+    "factionID": null
+  },
+  {
+    "regionID": 11000002,
+    "regionName": "A-R00002",
+    "factionID": null
+  },
+  {
+    "regionID": 11000003,
+    "regionName": "A-R00003",
+    "factionID": null
+  },
+  {
+    "regionID": 11000004,
+    "regionName": "B-R00004",
+    "factionID": null
+  },
+  {
+    "regionID": 11000005,
+    "regionName": "B-R00005",
+    "factionID": null
+  },
+  {
+    "regionID": 11000006,
+    "regionName": "B-R00006",
+    "factionID": null
+  },
+  {
+    "regionID": 11000007,
+    "regionName": "B-R00007",
+    "factionID": null
+  },
+  {
+    "regionID": 11000008,
+    "regionName": "B-R00008",
+    "factionID": null
+  },
+  {
+    "regionID": 11000009,
+    "regionName": "C-R00009",
+    "factionID": null
+  },
+  {
+    "regionID": 11000010,
+    "regionName": "C-R00010",
+    "factionID": null
+  },
+  {
+    "regionID": 11000011,
+    "regionName": "C-R00011",
+    "factionID": null
+  },
+  {
+    "regionID": 11000012,
+    "regionName": "C-R00012",
+    "factionID": null
+  },
+  {
+    "regionID": 11000013,
+    "regionName": "C-R00013",
+    "factionID": null
+  },
+  {
+    "regionID": 11000014,
+    "regionName": "C-R00014",
+    "factionID": null
+  },
+  {
+    "regionID": 11000015,
+    "regionName": "C-R00015",
+    "factionID": null
+  },
+  {
+    "regionID": 11000016,
+    "regionName": "D-R00016",
+    "factionID": null
+  },
+  {
+    "regionID": 11000017,
+    "regionName": "D-R00017",
+    "factionID": null
+  },
+  {
+    "regionID": 11000018,
+    "regionName": "D-R00018",
+    "factionID": null
+  },
+  {
+    "regionID": 11000019,
+    "regionName": "D-R00019",
+    "factionID": null
+  },
+  {
+    "regionID": 11000020,
+    "regionName": "D-R00020",
+    "factionID": null
+  },
+  {
+    "regionID": 11000021,
+    "regionName": "D-R00021",
+    "factionID": null
+  },
+  {
+    "regionID": 11000022,
+    "regionName": "D-R00022",
+    "factionID": null
+  },
+  {
+    "regionID": 11000023,
+    "regionName": "D-R00023",
+    "factionID": null
+  },
+  {
+    "regionID": 11000024,
+    "regionName": "E-R00024",
+    "factionID": null
+  },
+  {
+    "regionID": 11000025,
+    "regionName": "E-R00025",
+    "factionID": null
+  },
+  {
+    "regionID": 11000026,
+    "regionName": "E-R00026",
+    "factionID": null
+  },
+  {
+    "regionID": 11000027,
+    "regionName": "E-R00027",
+    "factionID": null
+  },
+  {
+    "regionID": 11000028,
+    "regionName": "E-R00028",
+    "factionID": null
+  },
+  {
+    "regionID": 11000029,
+    "regionName": "E-R00029",
+    "factionID": null
+  },
+  {
+    "regionID": 11000030,
+    "regionName": "F-R00030",
+    "factionID": null
+  },
+  {
+    "regionID": 11000031,
+    "regionName": "G-R00031",
+    "factionID": null
+  },
+  {
+    "regionID": 11000032,
+    "regionName": "H-R00032",
+    "factionID": null
+  },
+  {
+    "regionID": 11000033,
+    "regionName": "K-R00033",
+    "factionID": null
+  },
+  {
+    "regionID": 12000001,
+    "regionName": "ADR01",
+    "factionID": null
+  },
+  {
+    "regionID": 12000002,
+    "regionName": "ADR02",
+    "factionID": null
+  },
+  {
+    "regionID": 12000003,
+    "regionName": "ADR03",
+    "factionID": null
+  },
+  {
+    "regionID": 12000004,
+    "regionName": "ADR04",
+    "factionID": null
+  },
+  {
+    "regionID": 12000005,
+    "regionName": "ADR05",
+    "factionID": null
+  },
+  {
+    "regionID": 13000001,
+    "regionName": "PR-01",
+    "factionID": null
+  }
+]
