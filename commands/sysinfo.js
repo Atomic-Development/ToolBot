@@ -104,6 +104,7 @@ module.exports = {
           systemImage = makeImageLink(factionInfo.factionID, 'corporations')
           systemLinks = `${zkillboardLinked} | ${evePrismLinked}`
         } else {
+          category = getWormholeCategory(systemRegionName)
           systemImage = 'https://wiki.eveuniversity.org/images/e/e0/Systems.png'
           var systemAnoikisLink = makeAnoikisLink(systemName)
           var anoikisLinked = `[Anoikis](${systemAnoikisLink})`
@@ -125,6 +126,8 @@ module.exports = {
             .addField('Ship Kills (1hr)', `${systemShipKills}`, true)
             .addField('Pod Kills (1hr)', `${systemPodKills}`, true)
             .addField('NPC Kills (1hr)', `${systemNPCKills}`, true)
+        } else {
+          systemInfoMessage.addField('Category', `${category}`, true)
         }
         message.channel.send(systemInfoMessage)
       }
@@ -195,7 +198,7 @@ function makeImageLink (ID, type) {
       resource = 'icon'
       break
   }
-  let page = `${type}/${ID}`
+  let page = `${type}/${ID}/${resource}`
   let dllink = `${dotlanUrl}/${page}`
   return dllink
 }
@@ -220,3 +223,42 @@ function setSystemSecurity (systemSecurity, securityClass) {
   }
   return secLevel
 }
+
+/**
+ * Returns the Category of a wormhole system.
+ * @param {string} regionName - The name of the region to get the category for.
+ * @return {string} - The category for the WH. 
+ */
+function getWormholeCategory (regionName) {
+  var wormholeCategory
+  switch (regionName.charAt(0)) {
+    case 'A':
+      wormholeCategory === 'C1'
+      break
+    case 'B':
+      wormholeCategory === 'C2'
+      break
+    case 'C':
+      wormholeCategory === 'C3'
+      break
+    case 'D':
+      wormholeCategory === 'C4'
+      break
+    case 'E':
+      wormholeCategory === 'C5'
+      break
+    case 'F':
+      wormholeCategory === 'C6'
+      break
+    case 'G':
+      wormholeCategory === 'Thera'
+      break
+    case 'H':
+      wormholeCategory === 'C13'
+      break
+    case 'K':
+      wormholeCategory === 'Drifter'
+      break
+  }
+  return wormholeCategory
+} 
