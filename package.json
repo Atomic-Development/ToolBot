@@ -1,6 +1,6 @@
 {
   "name": "toolbot",
-  "version": "0.11.0",
+  "version": "1.0.0",
   "description": "EVE Online related tools/scripts.",
   "main": "toolbot.js",
   "repository": {
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "discord-command-parser": "^1.4.3",
-    "discord.js": "^12.3.0",
+    "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
     "env-var": "^6.3.0",
     "esijs": "^3.0.6",
