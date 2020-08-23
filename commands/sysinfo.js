@@ -13,6 +13,7 @@ const sdeSolarSystems = require('../sde/solarSystems.json')
 const sdeConstellations = require('../sde/constellations.json')
 const sdeRegions = require('../sde/regions.json')
 const sdeFactions = require('../sde/factions.json')
+const { getEVEImageURL } = require('../services/eveimage')
 
 module.exports = {
   name: 'sysinfo',
@@ -101,7 +102,7 @@ module.exports = {
           let factionInfo = await _.find(sdeFactions, function (factionData) { return factionData.factionID === systemFactionID })
           faction = factionInfo.factionName
           systemJumps = systemJumpsObject['ship_jumps']
-          systemImage = makeImageLink(factionInfo.factionID, 'corporations')
+          systemImage = getEVEImageURL(factionInfo.factionID, 'corporations')
           systemLinks = `${zkillboardLinked} | ${evePrismLinked}`
         } else {
           category = getWormholeCategory(systemRegionName)
@@ -143,8 +144,8 @@ module.exports = {
 function makeDotlanLink (ID, type) {
   let dotlanUrl = 'https://evemaps.dotlan.net'
   let page = `${type}/${ID}`
-  let dllink = `${dotlanUrl}/${page}`
-  return dllink
+  let dlLink = `${dotlanUrl}/${page}`
+  return dlLink
 }
 /**
  * Returns a ZKillBoard link for a system.
@@ -154,8 +155,8 @@ function makeDotlanLink (ID, type) {
 function makeZkillboardLink (ID) {
   let zKillboardUrl = 'https://zkillboard.com'
   let page = `system/${ID}/`
-  let zklink = `${zKillboardUrl}/${page}`
-  return zklink
+  let zkLink = `${zKillboardUrl}/${page}`
+  return zkLink
 }
 /**
  * Returns an Anoikis link for a wormhole system.
@@ -165,8 +166,8 @@ function makeZkillboardLink (ID) {
 function makeAnoikisLink (name) {
   let anoikisUrl = 'http://anoik.is'
   let page = `systems/${name}`
-  let aklink = `${anoikisUrl}/${page}`
-  return aklink
+  let akLink = `${anoikisUrl}/${page}`
+  return akLink
 }
 /**
  * Returns an EVE Prism link for a system.
@@ -176,31 +177,8 @@ function makeAnoikisLink (name) {
 function makeEvePrismLink (name) {
   let evePrismURL = 'https://eve-prism.com'
   let page = `?view=system&name=${name}`
-  let eplink = `${evePrismURL}/${page}`
-  return eplink
-}
-/**
- * Returns an image for an ID.
- * @param {number} ID - The ID to provide an image for.
- * @param {string} type - The type of the link. Acceptable values are 'alliances', 'characters', 'corporations' or 'types'.
- * @return {string} - The link to the Dotlan page for the system or region.
- */
-function makeImageLink (ID, type) {
-  switch (type) {
-    case 'alliances':
-    case 'corporations':
-      resource = 'logo'
-      break
-    case 'characters':
-      resource = 'portrait'
-      break
-    case 'types':
-      resource = 'icon'
-      break
-  }
-  let page = `${type}/${ID}/${resource}`
-  let dllink = `${dotlanUrl}/${page}`
-  return dllink
+  let epLink = `${evePrismURL}/${page}`
+  return epLink
 }
 /**
  * Returns a human-friendly security designation for a system.
