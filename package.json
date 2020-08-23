@@ -1,6 +1,6 @@
 {
   "name": "toolbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EVE Online related tools/scripts.",
   "main": "toolbot.js",
   "repository": {
