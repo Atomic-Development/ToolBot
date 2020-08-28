@@ -102,7 +102,7 @@ module.exports = {
           let factionInfo = await _.find(sdeFactions, function (factionData) { return factionData.factionID === systemFactionID })
           faction = factionInfo.factionName
           systemJumps = systemJumpsObject['ship_jumps']
-          systemImage = getEVEImageURL(factionInfo.factionID, 'corporations')
+          systemImage = await getEVEImageURL(factionInfo.factionID, 'corporations')
           systemLinks = `${zkillboardLinked} | ${evePrismLinked}`
         } else {
           category = getWormholeCategory(systemRegionName)

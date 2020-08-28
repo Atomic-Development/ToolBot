@@ -3,7 +3,7 @@
  * Licensed under the MIT License.
  */
 const env = require('env-var')
-const eveImageUrl = env.get('EVEIMAGEURL').asString()
+const eveImageUrl = env.get('EVEIMAGES').asString()
 /**
  * Returns an image for an ID.
  * @param {number} ID - The ID to provide an image for.
