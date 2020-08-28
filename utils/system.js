@@ -38,7 +38,6 @@ async function checkCooldown (command, message) {
 
   var now = Date.now()
   var timestamps = cooldowns.get(command.name)
-  console.log('Timestamps:', timestamps)
   var cooldownAmount = (command.cooldown || 3) * 1000
 
   if (timestamps.has(message.author.id)) {

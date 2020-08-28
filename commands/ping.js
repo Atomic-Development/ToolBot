@@ -14,7 +14,6 @@ module.exports = {
    */
   async run (client, message, args) {
     const msg = await message.channel.send("Ping?");
-    console.log('Client:', client)
     msg.edit(`Pong! Latency is ${msg.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
   }
 }

@@ -9,10 +9,8 @@ function systemChecker (systemName) {
   var aliases = systemAliases
   var aliasesResult = aliases[systemLower]
   if (typeof aliasesResult === 'undefined') {
-    // console.log('No alias for:', systemLower)
     return systemLower
   } else {
-    // console.log('Matched system to alias:', aliasesResult)
     return aliasesResult
   }
 }

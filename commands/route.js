@@ -49,7 +49,6 @@ module.exports = {
         'solar_system',
         'fuzzy'
       )
-      // console.log('Search for origin:', originSearch)
       if (_.isEmpty(originSearch)) {
         // No search results!
         message.channel.send('**WHOOPS:** Your origin system name didn\'t return any usable results!')
@@ -68,7 +67,6 @@ module.exports = {
         'solar_system',
         'fuzzy'
       )
-      // console.log('Search for destination:', destinationSearch);
       if (_.isEmpty(destinationSearch)) {
         // No search results!
         message.channel.send('**WHOOPS:** Your destination system name didn\'t return any usable results!')
