@@ -3,7 +3,7 @@
  * Licensed under the MIT License.
  */
 const env = require('env-var')
-const factionImageURL = env.get('FACTIONIMAGEURL').asString()
+const eveImageUrl = env.get('EVEIMAGEURL').asString()
 /**
  * Returns an image for an ID.
  * @param {number} ID - The ID to provide an image for.
@@ -24,7 +24,7 @@ async function getEVEImageURL (ID, type) {
       break
   }
   let page = `${type}/${ID}/${resource}`
-  let imageLink = `${dotlanUrl}/${page}`
+  let imageLink = `${eveImageUrl}/${page}`
   return imageLink
 }
 
