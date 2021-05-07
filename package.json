@@ -23,7 +23,7 @@
     "got": "^11.5.2",
     "moment": "^2.27.0",
     "numeral": "^2.0.6",
-    "underscore": "^1.10.2"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {},
   "engines": {
