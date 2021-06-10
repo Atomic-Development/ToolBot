@@ -55,11 +55,11 @@ module.exports = {
         return
       } else {
         // Set the Origin system ID.
-        var originID = originSearch['solar_system'].shift()
+        var originID = originSearch['data']['solar_system'].shift()
         // Grab the full system info from ESI.
         let originSystem = await esi.getSystemInfo(originID)
         // Setup some variables!
-        var originName = originSystem.name
+        var originName = originSystem.data.name
       }
       // Search ESI for the destination system using our 'fuzzy' search type which lets us use terms like 'Amy'.
       let destinationSearch = await esi.getSearchResults(
@@ -73,11 +73,11 @@ module.exports = {
         return
       } else {
         // Set the Destination system ID..
-        var destinationID = destinationSearch['solar_system'].shift()
+        var destinationID = destinationSearch['data']['solar_system'].shift()
         // Grab the full system info from ESI.
         let destinationSystem = await esi.getSystemInfo(destinationID)
         // Setup some variables!
-        var destinationName = destinationSystem.name
+        var destinationName = destinationSystem.data.name
       }
       if (
         // 'Synonyms' for a 'prefer safer' route search.
@@ -127,7 +127,7 @@ module.exports = {
         if (typeof routePlan === 'undefined') {
           message.channel.send('**WHOOPS:** ESI is unable to route between those systems! :exploding_head: :cry:.')
         } else {
-          var jumps = routePlan.length - 1
+          var jumps = routePlan.data.length - 1
           var jumpSuffix
           // Handle jump suffix based on the number of jumps.
           if (jumps === 1) {

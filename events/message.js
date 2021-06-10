@@ -20,7 +20,7 @@ module.exports = {
     // Ignore all bots
     if (message.author.bot) return
     if (_.includes(banned, id)) {
-      console.log(`Banned user ${tag} (${id}) tried to use the bot.`)
+      client.logger.log('warn',`Banned user ${tag} (${id}) tried to use the bot.`)
       return
     }
     // Ignore messages not starting with the prefix.
@@ -35,7 +35,7 @@ module.exports = {
     // If that command doesn't exist, silently exit and do nothing
     if (!command) return
     // Run the command
-    var cooldownResult = await system.checkCooldown(command, message)
+    var cooldownResult = await system.checkCooldown(client, command, message)
     if (typeof cooldownResult !== 'object' || cooldownResult.status === 'no-cooldown') {
       command.run(client, message, args)
     } else {

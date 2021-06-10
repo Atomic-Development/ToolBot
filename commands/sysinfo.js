@@ -41,13 +41,14 @@ module.exports = {
       var systemID
       var systemSearchRegex = new RegExp(`^${system}`, "i")
       var systemSearch = await _.find(sdeSolarSystems, function (systemData) { return systemSearchRegex.exec(systemData.solarSystemName)})
+      console.log(systemSearch)
       if (typeof systemSearch === 'undefined') {
         var systemSearch = await esi.getSearchResults(
           system,
           'solar_system',
           'fuzzy'
         )
-        systemID = systemSearch['solar_system'].shift()
+        systemID = systemSearch['data']['solar_system'].shift()
         systemInfo = _.find(sdeSolarSystems, function (systemData) { return systemData.solarSystemID === systemID })
       } else {
         systemID = systemSearch.solarSystemID
@@ -70,7 +71,7 @@ module.exports = {
         let secLevel = setSystemSecurity(systemSecurity, securityClass)
         let trueSec = round(systemInfo.security, 5)
         let allSystemKills = await esi.getAllSystemKills()
-        let systemKills = await esi.getSystemKills(systemID, allSystemKills)
+        let systemKills = await esi.getSystemKills(systemID, allSystemKills['data'])
         let systemKillsObject = systemKills.shift()
         let systemDotlanLink = makeDotlanLink(systemID, 'system')
         let regionDotlanLink = makeDotlanLink(systemRegionID, 'region')
@@ -97,7 +98,7 @@ module.exports = {
             systemShipKills = systemKillsObject['ship_kills']
           }
           let allSystemJumps = await esi.getAllSystemJumps()
-          let systemJumpsAPI = await esi.getSystemJumps(systemID, allSystemJumps)
+          let systemJumpsAPI = await esi.getSystemJumps(systemID, allSystemJumps.data)
           let systemJumpsObject = systemJumpsAPI.shift()
           let factionInfo = await _.find(sdeFactions, function (factionData) { return factionData.factionID === systemFactionID })
           faction = factionInfo.factionName

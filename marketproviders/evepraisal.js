@@ -97,7 +97,7 @@ async function evepraisalGetItemPrices (itemTypeID) {
     })
     return response.body
   } catch (error) {
-    console.log(error.response.body)
+    client.logger.log('error',error.response.body)
   }
 }
 /**
@@ -112,7 +112,7 @@ async function evepraisalGetItemPrices (itemTypeID) {
 *     })
 *     return response.body
 *   } catch (error) {
-*     console.log(error.response.body)
+*     client.logger.log('error',error.response.body)
 *   }
 * }
 */

@@ -2,7 +2,9 @@
  * Copyright (c) Max Tsero. All rights reserved.
  * Licensed under the MIT License.
  */
+const { logger } = require('env-var')
 const esiJS = require('esijs')
+const esiClient = new esiJS({})
 const _ = require('underscore')
 /**
  * Queries ESI for search results.
@@ -21,7 +23,7 @@ function getSearchResults (searchTerm, searchEndpoint, searchType) {
       break
   }
   return new Promise((resolve, reject) => {
-    const searchResult = esiJS.search.search(
+    const searchResult = esiClient.search.search(
       searchTerm,
       searchEndpoint,
       searchType)
@@ -29,6 +31,7 @@ function getSearchResults (searchTerm, searchEndpoint, searchType) {
         reject(e)
       })
     resolve(searchResult)
+    client.logger.log('info', $searchResult);
   })
 }
 /**
@@ -38,7 +41,7 @@ function getSearchResults (searchTerm, searchEndpoint, searchType) {
  */
 function getConstellationInfo (constellationID) {
   return new Promise((resolve, reject) => {
-    let constellationInfo = esiJS.universe.constellations
+    let constellationInfo = esiClient.universe.constellations
       .constellationInfo(constellationID)
       .catch(function (e) {
         reject(e)
@@ -53,7 +56,7 @@ function getConstellationInfo (constellationID) {
  */
 function getRegionInfo (regionID) {
   return new Promise((resolve, reject) => {
-    let regionInfo = esiJS.universe.regions
+    let regionInfo = esiClient.universe.regions
       .regionInfo(regionID)
       .catch(function (e) {
         reject(e)
@@ -72,13 +75,13 @@ function getRoutePlan (origin, destination, flag, avoids) {
   return new Promise((resolve, reject) => {
     var routePlan
     if (!avoids) {
-      routePlan = esiJS.routes
+      routePlan = esiClient.routes
         .planRoute(origin, destination, flag)
         .catch(function (e) {
           reject(e)
         })
     } else {
-      routePlan = esiJS.routes
+      routePlan = esiClient.routes
         .planRoute(origin, destination, flag, avoids)
         .catch(function (e) {
           reject(e)
@@ -94,7 +97,7 @@ function getRoutePlan (origin, destination, flag, avoids) {
  */
 function getSystemInfo (systemID) {
   return new Promise((resolve, reject) => {
-    let systemInfo = esiJS.universe.systems
+    let systemInfo = esiClient.universe.systems
       .systemInfo(systemID)
       .catch(function (e) {
         reject(e)
@@ -108,7 +111,7 @@ function getSystemInfo (systemID) {
  */
 function getAllSystemJumps () {
   return new Promise((resolve, reject) => {
-    let allSystemJumps = esiJS.universe.systems
+    let allSystemJumps = esiClient.universe.systems
       .systemJumps()
       .catch(function (e) {
         reject(e)
@@ -134,7 +137,7 @@ function getSystemJumps (systemID, allSystemJumps) {
  */
 function getAllSystemKills () {
   return new Promise((resolve, reject) => {
-    let allSystemKills = esiJS.universe.systems
+    let allSystemKills = esiClient.universe.systems
       .systemKills()
       .catch(function (e) {
         reject(e)

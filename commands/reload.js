@@ -36,10 +36,10 @@ module.exports = {
       const props = require(`./${commandName}.js`)
       client.commands.set(commandName, props)
       message.reply(`The command ${commandName} has been reloaded`)
-      console.log(`The command ${commandName} was reloaded by ${memberID}`)
+      client.logger.log('info',`The command ${commandName} was reloaded by ${memberID}`)
     } else {
       message.reply("You're not authorised to reload commands")
-      console.log(`User ${memberID} tried to reload ${commandName} but I said no!`)
+      client.logger.log('warn',`User ${memberID} tried to reload ${commandName} but I said no!`)
     }
   }
 }

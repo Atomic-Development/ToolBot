@@ -28,12 +28,12 @@ function checkCommand (commandName) {
  * @param {object} message 
  * @return {object} - An object containing a status and or message in response to the check.
  */
-async function checkCooldown (command, message) {
+async function checkCooldown (client, command, message) {
   var cooldowns = global.cooldowns
   let reply
   if (!cooldowns.has(command.name)) {
     cooldowns.set(command.name, new Discord.Collection())
-    console.log('Cooldown Set:', cooldowns)
+    client.logger.log('info','Cooldown Set')
   }
 
   var now = Date.now()
@@ -44,7 +44,7 @@ async function checkCooldown (command, message) {
     var expirationTime = timestamps.get(message.author.id) + cooldownAmount
 
     if (now < expirationTime) {
-      console.log('Cooldown Triggered')
+      client.logger.log('warn','Cooldown Triggered')
       var timeLeft = (expirationTime - now) / 1000
       reply = {
         'msg': `Please wait ${timeLeft.toFixed(1)} more second(s) before reusing the \`${command.name}\` command.`
@@ -52,7 +52,7 @@ async function checkCooldown (command, message) {
       return reply
     }
   } else {
-    console.log('No Cooldown')
+    client.logger.log('info','No Cooldown')
     timestamps.set(message.author.id, now)
     setTimeout(() => timestamps.delete(message.author.id), cooldownAmount)
     reply = {

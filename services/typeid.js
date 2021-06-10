@@ -18,7 +18,7 @@ async function getTypebyName (typeName) {
     })
     return response.body
   } catch (error) {
-    console.log(error.response.body)
+    client.logger.log('error',error.response.body)
   }
 }
 
